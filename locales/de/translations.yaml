@@ -1,0 +1,52 @@
+# generic
+second: "Sekunde"
+seconds: "Sekunden"
+minute: "Minute"
+minutes: "Minuten"
+hour: "Stunde"
+hours: "Stunden"
+day: "Tag"
+days: "Tage"
+
+# !join and related
+needsJoin: "Ich bin deinem Kanal noch nicht beigetreten. Stelle sicher, dass du zuerst !join ausführst."
+needsAuth: "Dieser Befehl erfordert, dass du dich zuerst mit Sery_Bot autorisierst. Klicke zum abschließen auf diesen Link. Gehe danach zu deinem Kanal und gib /mod Sery_Bot in deinem Chat ein. Wenn du fertig bist, führe diesen Befehl erneut aus. {{authLink}}"
+needsPermissions: "Ich habe keine aktualisierten Berechtigungen für deinen Kanal. Bitte besuche {{authLink}}, um dies zu beheben, und führe dann diesen Befehl erneut aus."
+needsMod: "Ich bin kein Moderator auf deinem Kanal. Stelle sicher, dass du zuerst /mod Sery_Bot in deinem Kanal ausführst. Wenn du das bereits getan hast, versuche, den Bot zu entmodden und erneut zu modden."
+joinWelcome: "Willkommen beim Bot! Ich werde deinem Kanal beitreten, wenn du live bist. Wenn du Schutz vor Follow-Bots möchtest, stelle sicher, dass du !followban ausführst."
+rejoinWelcome: "Wenn du diese Nachricht siehst, bist du fertig! Ich trete deinem Kanal bei, wenn du live bist."
+rejoinFollowBanEnabled: "Ich blockiere auch Follow-Bots für dich!"
+rejoinFollowBanDisabled: "Wenn du Schutz vor Follow-Bots möchtest, stelle sicher, dass du !followban ausführst"
+leaveChannel: "Ich habe deinen Kanal verlassen."
+
+# !info
+info: "Willkommen auf dem Kanal von Sery_Bot! Dieser Bot ist ein Schutzbot gegen Hass-Raids und hat mehrere Möglichkeiten, Hass-Raids zu erkennen und zu blockieren. Für Details, Anleitungen, Befehle und mehr empfehle ich dringend, {{carrdLink}} zu besuchen."
+
+
+# !adtimer and related
+needsAdAuth: "Ich habe keine Berechtigung, Werbung in deinem Kanal zu prüfen. Bitte besuche {{authLink}}, um dies zu beheben, und führe dann diesen Befehl erneut aus."
+adTimerEnabled: "Werbe-Timer aktiviert"
+adTimerDisabled: "Werbe-Timer deaktiviert"
+adBreakBegin: "Eine Werbepause von {{duration}} beginnt! Danke, dass du während dieser Pause bei uns bleibst! {{emote}} Werbung unterstützt meine Inhalte. Überlege, zu abonnieren, um Werbung zu entfernen und den Stream zu unterstützen!"
+adBreakEnd: "Die Werbepause endet jetzt! {{emote}}"
+
+# raid-out
+raidOutMessageCleared: "Benutzerdefinierte Nachricht für ausgehende Raids gelöscht"
+raidOutMessageSet: "Benutzerdefinierte Nachricht für ausgehende Raids hinzugefügt"
+raidOutOn: "Alarm für ausgehende Raids aktiviert"
+raidOutOff: "Alarm für ausgehende Raids deaktiviert"
+raidOutMessage: "{{channelFrom}} hat den Raid zu {{channelTo}} geschickt! Begleite uns auf https://twitch.tv/{{channelToLogin}} und zeige etwas Liebe! {{emote1}} {{emote2}}"
+
+# stream online
+seryBotJoined: "Sery_Bot ist beigetreten"
+seryBotJoinedFirstMsg: "Sery_Bot wird dich nun benachrichtigen, wenn er deinem Chat beigetreten ist. Um diese zukünftigen Benachrichtigungen auszuschalten, gib !onlinenotifoff ein (diese Einführungsnachricht wird nur einmal angezeigt)"
+seryBotReauthNeeded: "Hallo @{{channel}}, Twitch führt Änderungen an Bot-Konten durch. Um sicherzustellen, dass Sery_Bot weiterhin wie erwartet funktioniert, musst du den Bot erneut authentifizieren. Bitte besuche {{authLink}}, wenn du dazu gerade Zeit hast. Danke!"
+
+onlineNotifOn: "Ich werde dich benachrichtigen, wenn ich auf deinem Kanal bin."
+onlineNotifOff: "Ich werde dich nicht mehr benachrichtigen, wenn ich auf deinem Kanal bin."
+offlineChannelLockOn: "Offline-Kanal-Sperre aktiviert"
+offlineChannelLockOff: "Offline-Kanal-Sperre deaktiviert"
+raffleSystemOn: "Verlosungssystem aktiviert"
+raffleSystemOff: "Verlosungssystem deaktiviert"
+followBanOn: "Schutz vor Follow-Bots aktiviert"
+followBanOff: "Schutz vor Follow-Bots deaktiviert"
