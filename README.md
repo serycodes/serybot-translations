@@ -15,18 +15,20 @@ If you would like to contribute to the translations, please follow these steps:
 ## Language Codes
 
 These are Twitch's supported language codes, best I can tell...
+
 Twitch uses [ISO 639 language codes](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes). 
 
-| Language Name | Language Code |
-| --- | --- |
+Huge shoutout to everyone who has contributed to the translations!
+
+| Language Name | Language Code | Contributors |
+| --- | --- | --- |
 | Български | bg |
 | Čeština | cs |
 | Dansk | da |
-| Deutsch | de |
-| English | en |
+| Deutsch | de | [pack161](https://x.com/Pack161x) |
 | English - UK | en-gb |
-| Español - España | es |
-| Español - Latinoamérica | es-mx |
+| Español - España | es | [ChronosVoyager](https://x.com/ChronosVoyager) |
+| Español - Latinoamérica | es-mx | [pixel](https://x.com/thepixeltwink) |
 | Suomi | fi |
 | Français | fr |
 | Magyar | hu |
@@ -36,7 +38,7 @@ Twitch uses [ISO 639 language codes](https://en.wikipedia.org/wiki/List_of_ISO_6
 | Nederlands | nl |
 | Norsk | no |
 | Polski | pl |
-| Português | pt |
+| Português | pt | [NobreHD](https://x.com/NobreHD) |
 | Português - Brasil | pt-br |
 | Română | ro |
 | Русский | ru |
@@ -47,3 +49,15 @@ Twitch uses [ISO 639 language codes](https://en.wikipedia.org/wiki/List_of_ISO_6
 | Tiếng Việt | vi |
 | 中文 简体 | zh-cn |
 | 中文 繁體 | zh-tw |
+
+
+## Unofficial Languages
+
+Some languages are not officially supported by Twitch's settings/UI, but can be manually selected in Sery_Bot by using:
+```
+!serysetlang <language code>
+```
+| Language Name | Language Code | Contributors |
+| --- | --- | --- |
+| Tagalog | tl | [AoneShirui](https://x.com/AoneShirui) |
+

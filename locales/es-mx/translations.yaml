@@ -1,0 +1,62 @@
+# generic
+second: "segundo"
+seconds: "segundos"
+minute: "minuto"
+minutes: "minutos"
+hour: "hora"
+hours: "horas"
+day: "día"
+days: "días"
+
+# !join and related
+needsJoin: "Aún no soy parte de tu canal. Por favor, asegúrate de ejecutar el comando !join primero."
+needsAuth: "Este comando requiere que te autorices con Sery_Bot primero. Haz clic en este enlace para completar el proceso. Una vez finalizado, ve a tu canal e introduce el comando /mod Sery_Bot. Una vez lo hayas hecho, ejecuta este comando de nuevo. {{authLink}}"
+needsPermissions: "No tengo los permisos correctos para tu canal. Por favor, haz clic en este enlace {{authLink}} para solucionarlo, y ejecuta este comando de nuevo."
+needsMod: "No tengo permisos de moderador en tu canal. Asegúrate de usar el comando /mod Sery_Bot en tu canal primero. Si ya lo has hecho, intenta quitarle los permisos de moderador a Sery_Bot y dárselos de nuevo."
+joinWelcome: "¡Bienvenido al bot! Me uniré a tu canal cuando comiences tus directos. Si deseas protección contra los ataques de seguidores falsos (bots), ejecuta el comando !followban."
+rejoinWelcome: "Si recibes este mensaje, ¡significa que todo está listo! Me uniré a tu canal cuando comiences tu directo."
+rejoinFollowBanEnabled: "¡También te estoy protegiendo contra los ataques de seguidores falsos (bots)!"
+rejoinFollowBanDisabled: "Si deseas protección contra los ataques de seguidores falsos (bots), ejecuta el comando !followban."
+leaveChannel: "Ya no soy parte de tu canal."
+
+# !info
+info: "¡Bienvenido al canal de Sery_Bot! Este bot te protege de las raids de odio, y tiene múltiples formas de detectarlas y bloquearlas. Para más detalles, instrucciones, comandos y más información, te recomiendo mucho que cheques este enlace: {{carrdLink}}"
+ 
+# !adtimer and related
+needsAdAuth: "No tengo permisos para comprobar los anuncios en tu canal. Por favor, haz clic en el enlace {{authLink}} para solucionarlo, y ejecuta este comando de nuevo."
+adTimerEnabled: "Temporizadores de anuncios activados."
+adTimerDisabled: "Temporizadores de anuncios desactivados."
+adBreakBegin: "¡Una pausa publicitaria que dura {{duration}} ha comenzado! ¡Gracias por quedarte en el canal durante este descanso! {{emote}} Los anuncios me ayudan a seguir creando contenido. ¡Considera suscribirte para no ver anuncios y apoyar al directo!"
+adBreakEnd: "¡La pausa publicitaria está terminado! {{emote}}"
+ 
+# raid-out
+raidOutMessageCleared: "Mensaje personalizado de raid saliente reiniciado."
+raidOutMessageSet: "Mensaje personalizado de raid saliente añadido."
+raidOutOn: "Alerta de raid saliente activada."
+raidOutOff: "Alerta de raid saliente desactivada."
+raidOutMessage: "¡{{channelFrom}} ha enviado una raid a {{channelTo}}! ¡Únete a nosotros en https://twitch.tv/{{channelToLogin}} y muestra tu amor! {{emote1}} {{emote2}}"
+
+# stream online
+seryBotJoined: "Sery_Bot se ha unido a tu canal."
+seryBotJoinedFirstMsg: "Sery_Bot te avisará cuando se una a tu canal. Para desactivar estas notificaciones en el futuro, ejecuta el comando !onlinenotifoff (este mensaje introductorio sólo se mostrará una vez)"
+seryBotReauthNeeded: "Hola @{{channel}}, Twitch está introduciendo cambios en las cuentas de bots. Para asegurar que Sery_bot siga funcionando de forma correcta, tendrás que volver a autorizar el bot. Por favor, haz clic en el enlace {{authLink}} en cuanto sea posible. ¡Gracias!"
+ 
+# Settings
+onlineNotifOn: "Te avisaré cuando me una a tu canal."
+onlineNotifOff: "Ya no te avisaré cuando me una a tu canal."
+offlineChannelLockOn: "Bloqueo de canal desconectado activado."
+offlineChannelLockOff: "Bloqueo de canal desconectado desactivado."
+raffleSystemOn: "Sistema de sorteos activado."
+raffleSystemOff: "Sistema de sorteos desactivado."
+followBanOn: "Protección contra los ataques de seguidores falsos (bots) activado."
+followBanOff: "Protección contra los ataques de seguidores falsos (bots) desactivado."
+ 
+# Reauth whisper
+# No links because Twitch considers them spam
+reauthWhisper: "Hola, este es un mensaje automatico para hacerte saber que Sery_Bot ya no está protegiendo tu canal. Esto normalmente occure cuando cambias tu contraseña. Si te gustaría reañadir al bot, visita en canal de Twitch de Sery_Bot y utiliza el comando !join. Si tienes alguna duda, por favor contacta a @SeryCodes en Twitter. ¡Gracias!"
+
+# language
+languageSet: "Idioma configurado al español"
+noLanguageProvided: "Idioma no indicado. Escribe un codigo de idioma valido. Los codigos validos de idioma son: {{validLangCodes}}".
+invalidLanguage: "Codigo de idioma invalido. Escribe un codigo de idioma valido. Los codigos validos de idioma son: {{validLangCodes}}".
+
