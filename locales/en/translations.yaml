@@ -41,6 +41,7 @@ seryBotJoined: "Sery_Bot has joined"
 seryBotJoinedFirstMsg: "Sery_Bot will now notify you when it's joined your chat. To turn off these future notifications, type in !onlinenotifoff (this intro message will only display once)"
 seryBotReauthNeeded: "Hi @{{channel}}, Twitch is introducing changes to bot accounts. To ensure Sery_Bot continues to work as expected, you'll have to reauth the bot. Please visit {{authLink}} when you are able. Thank you!"
 
+# Settings
 onlineNotifOn: "I will notify you when I am in your channel."
 onlineNotifOff: "I will no longer notify you when I am in your channel."
 offlineChannelLockOn: "Offline channel lock enabled"
@@ -49,3 +50,12 @@ raffleSystemOn: "Raffle system enabled"
 raffleSystemOff: "Raffle system disabled"
 followBanOn: "Follow bot protection enabled"
 followBanOff: "Follow bot protection disabled"
+
+# Reauth whisper
+# No links because Twitch considers them spam
+reauthWhisper: "Hello, this is an automated message to let you know that Sery_Bot is no longer protecting your channel. This commonly happens when you change your password. If you would like to readd the bot, visit Sery_Bot's Twitch page and !join the bot back. If you have any questions, feel free to message @SeryCodes on Twitter. Thank you!"
+
+# language
+languageSet: "Language set to English"
+noLanguageProvided: "No language provided. Please provide a valid language code. Valid language codes are: {{validLangCodes}}"
+invalidLanguage: "Invalid language code. Please provide a valid language code. Valid language codes are: {{validLangCodes}}"

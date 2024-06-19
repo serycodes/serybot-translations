@@ -40,6 +40,8 @@ raidOutMessage: "¡{{channelFrom}} ha enviado una raid a {{channelTo}}! ¡Únete
 seryBotJoined: "Sery_Bot se ha unido a tu canal."
 seryBotJoinedFirstMsg: "Sery_Bot te avisará cuando se una a tu canal. Para desactivar estas notificaciones en el futuro, ejecuta el comando !onlinenotifoff (este mensaje introductorio sólo se mostrará una vez)"
 seryBotReauthNeeded: "Hola @{{channel}}, Twitch está introduciendo cambios en las cuentas de bots. Para asegurar que Sery_bot sigue funcionando de forma correcta, tendrás que volver a autorizar al bot. Por favor, pincha en el enlace {{authLink}} en cuanto sea posible. ¡Gracias!"
+
+# Settings
 onlineNotifOn: "Te avisaré cuando me una a tu canal."
 onlineNotifOff: "Ya no te avisaré cuando me una a tu canal."
 offlineChannelLockOn: "Bloqueo de canal desconectado activo."
@@ -48,3 +50,12 @@ raffleSystemOn: "Sistema de sorteos activo."
 raffleSystemOff: "Sistema de sorteos inactivo."
 followBanOn: "Protección contra los ataques de seguidores falsos (bots) activa."
 followBanOff: "Protección contra los ataques de seguidores falsos (bots) inactiva."
+
+# Reauth whisper
+# No links because Twitch considers them spam
+reauthWhisper: "Hello, this is an automated message to let you know that Sery_Bot is no longer protecting your channel. This commonly happens when you change your password. If you would like to readd the bot, visit Sery_Bot's Twitch page and !join the bot back. If you have any questions, feel free to message @SeryCodes on Twitter. Thank you!"
+
+# language
+languageSet: "Language set to Spanish"
+noLanguageProvided: "No language provided. Please provide a valid language code. Valid language codes are: {{validLangCodes}}"
+invalidLanguage: "Invalid language code. Please provide a valid language code. Valid language codes are: {{validLangCodes}}"

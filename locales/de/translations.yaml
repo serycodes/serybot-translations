@@ -22,7 +22,6 @@ leaveChannel: "Ich habe deinen Kanal verlassen."
 # !info
 info: "Willkommen auf dem Kanal von Sery_Bot! Dieser Bot ist ein Schutzbot gegen Hass-Raids und hat mehrere Möglichkeiten, Hass-Raids zu erkennen und zu blockieren. Für Details, Anleitungen, Befehle und mehr empfehle ich dringend, {{carrdLink}} zu besuchen."
 
-
 # !adtimer and related
 needsAdAuth: "Ich habe keine Berechtigung, Werbung in deinem Kanal zu prüfen. Bitte besuche {{authLink}}, um dies zu beheben, und führe dann diesen Befehl erneut aus."
 adTimerEnabled: "Werbe-Timer aktiviert"
@@ -42,6 +41,7 @@ seryBotJoined: "Sery_Bot ist beigetreten"
 seryBotJoinedFirstMsg: "Sery_Bot wird dich nun benachrichtigen, wenn er deinem Chat beigetreten ist. Um diese zukünftigen Benachrichtigungen auszuschalten, gib !onlinenotifoff ein (diese Einführungsnachricht wird nur einmal angezeigt)"
 seryBotReauthNeeded: "Hallo @{{channel}}, Twitch führt Änderungen an Bot-Konten durch. Um sicherzustellen, dass Sery_Bot weiterhin wie erwartet funktioniert, musst du den Bot erneut authentifizieren. Bitte besuche {{authLink}}, wenn du dazu gerade Zeit hast. Danke!"
 
+# Settings
 onlineNotifOn: "Ich werde dich benachrichtigen, wenn ich auf deinem Kanal bin."
 onlineNotifOff: "Ich werde dich nicht mehr benachrichtigen, wenn ich auf deinem Kanal bin."
 offlineChannelLockOn: "Offline-Kanal-Sperre aktiviert"
@@ -50,3 +50,12 @@ raffleSystemOn: "Verlosungssystem aktiviert"
 raffleSystemOff: "Verlosungssystem deaktiviert"
 followBanOn: "Schutz vor Follow-Bots aktiviert"
 followBanOff: "Schutz vor Follow-Bots deaktiviert"
+
+# Reauth whisper
+# No links because Twitch considers them spam
+reauthWhisper: "Hello, this is an automated message to let you know that Sery_Bot is no longer protecting your channel. This commonly happens when you change your password. If you would like to readd the bot, visit Sery_Bot's Twitch page and !join the bot back. If you have any questions, feel free to message @SeryCodes on Twitter. Thank you!"
+
+# language
+languageSet: "Language set to German"
+noLanguageProvided: "No language provided. Please provide a valid language code. Valid language codes are: {{validLangCodes}}"
+invalidLanguage: "Invalid language code. Please provide a valid language code. Valid language codes are: {{validLangCodes}}"
