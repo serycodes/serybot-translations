@@ -8,13 +8,14 @@ If you would like to contribute to the translations, please follow these steps:
 
 1. Fork this repository.
 2. Create a new branch for your translation.
-3. Copy the `locales/en` folder and rename it to the language code you are translating to.
-4. Translate the strings in the new folder.
+3. Copy the `locales/en` folder and rename it to the language code you are translating to, or update the existing file if it already exists.
+4. Translate the strings.
 5. Create a pull request to this repository.
 
 ## Language Codes
 
 These are Twitch's supported language codes, best I can tell...
+Twitch uses [ISO 639 language codes](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes). 
 
 | Language Name | Language Code |
 | --- | --- |
