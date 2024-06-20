@@ -28,6 +28,10 @@ adTimerEnabled: "Ang mga timer para sa ads ay naka-on na"
 adTimerDisabled: "Ang mga timer para sa ads ay naka-off na"
 adBreakBegin: "Ang {{duration}} ad break ay nagsimula na! Salamat sa pananatili habang naka-break! {{emote}} Ang mga ads ay nakakatulong para suportahan ang aking content. I-consider na mag-subscribe para tanggalin ang ads at suportahan ang stream!"
 adBreakEnd: "Matatapos na ang ad break! {{emote}}"
+noAdMsgProvided: "Please provide a message for the ad timer. Example: !adtimermsg An ad break has begun! Consider subscribing to remove ads and support this stream!"
+adMsgTooLong: "The ad message is too long. Please provide a message that is less than 400 characters."
+adMsgNoSlash: "Sorry, I cannot use slash commands like /announce for ad timers."
+adMsgSet: "Custom ad timer message added: {{adMsg}}"
 
 # raid-out
 raidOutMessageCleared: "Na-clear na custom na raid-out message"
