@@ -32,6 +32,7 @@ noAdMsgProvided: "Please provide a message for the ad timer. Example: {{command}
 adMsgTooLong: "The ad message is too long. Please provide a message that is less than 400 characters."
 adMsgNoSlash: "Sorry, I cannot use slash commands like /announce for ad timers."
 adMsgSet: "Custom ad timer message added: {{adMsg}}"
+adMsgEndSet: "Custom ad timer ending message added: {{adMsg}}"
 
 # raid-out
 raidOutMessageCleared: "Benutzerdefinierte Nachricht für ausgehende Raids gelöscht"
