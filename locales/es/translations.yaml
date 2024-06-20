@@ -28,6 +28,11 @@ adTimerEnabled: "Temporizadores de anuncios activos."
 adTimerDisabled: "Temporizadores de anuncios inactivos."
 adBreakBegin: "¡Una pausa publicitaria que dura {{duration}} ha comenzado! ¡Gracias por quedarte en el canal durante este descanso! {{emote}} Los anuncios me ayudan a seguir proveyendo mi contenido. ¡Considera suscribirte para eliminar los anuncios y apoyar al directo!"
 adBreakEnd: "¡La pausa publicitaria está llegando a su fin! {{emote}}"
+noAdMsgProvided: "Please provide a message for the ad timer. Example: {{command}} Consider subscribing to remove ads and support this stream!"
+adMsgTooLong: "The ad message is too long. Please provide a message that is less than 400 characters."
+adMsgNoSlash: "Sorry, I cannot use slash commands like /announce for ad timers."
+adMsgSet: "Custom ad timer message added: {{adMsg}}"
+adMsgEndSet: "Custom ad timer ending message added: {{adMsg}}"
 
 # raid-out
 raidOutMessageCleared: "Mensaje personalizado de raid saliente reiniciado."

@@ -28,6 +28,11 @@ adTimerEnabled: "Ad timers enabled"
 adTimerDisabled: "Ad timers disabled"
 adBreakBegin: "A {{duration}} ad break is starting! Thank you for sticking with us through this break! {{emote}} Ads help support my content. Consider subscribing to remove ads and support the stream!"
 adBreakEnd: "The ad break is finishing now! {{emote}}"
+noAdMsgProvided: "Please provide a message for the ad timer. Example: {{command}} Consider subscribing to remove ads and support this stream!"
+adMsgTooLong: "The ad message is too long. Please provide a message that is less than 400 characters."
+adMsgNoSlash: "Sorry, I cannot use slash commands like /announce for ad timers."
+adMsgSet: "Custom ad timer message added: {{adMsg}}"
+adMsgEndSet: "Custom ad timer ending message added: {{adMsg}}"
 
 # raid-out
 raidOutMessageCleared: "Custom raid-out message cleared"

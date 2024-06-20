@@ -1,0 +1,66 @@
+# generic
+second: "segundo"
+seconds: "segundo"
+minute: "minuto"
+minutes: "minuto"
+hour: "oras"
+hours: "oras"
+day: "araw"
+days: "araw"
+
+# !join and related
+needsJoin: "Hindi pa ako nakasali sa iyong channel. Gamitin mo muna ang !join."
+needsAuth: "Itong command ay kailangan muna ng pahintulot kay Sery_Bot. Pindutin itong link para tapusin ang proseso. Pagkatapos, pumunta sa iyong channel at gawin ang /mod Sery_Bot. Kapag tapos na, gamitin muli itong command. {{authLink}}"
+needsPermissions: "Wala akong bagong pahintulot sa iyong channel. Pumunta sa {{authLink}} para maayos ito at gamitin itong command ulit."
+needsMod: "Hindi pa ako modded sa iyong channel. Siguraduhing nagamit na ang /mod Sery_Bot sa iyong channel. Kung nagawa na ito, subukang tanggalin ang mod at gawing mod ulit ang bot."
+joinWelcome: "Welcome sa bot! Ako'y sasali sa iyong channel kapag ikaw ay naging live. Kung gusto mo ng proteksyon, siguraduhing gamitin ang !followban"
+rejoinWelcome: "Kung nakikita mo itong mensahe, naka-set ka na! Sasali ako sa iyong channel kapag ikaw ay nag-live."
+rejoinFollowBanEnabled: "Ako'y nagb-block din ng follow bots para sa'yo!"
+rejoinFollowBanDisabled: "Kung gusto mo ng proteksyon mula sa mga follow bots, gamitin ang !followban"
+leaveChannel: "Ako'y umalis na mula sa iyong channel."
+
+# !info
+info: Welcome sa channel ni Sery_Bot! Ang bot na ito ay proteksyon para sa hate raid na maraming paraan para mag-detect at mag-block ng hate raids. Para sa mga detalye, instructions, commands at marami pa, hinihikayat kita na tignan ang {{carrdLink}}
+
+# !adtimer and related
+needsAdAuth: "Wala akong pahintulot para i-check ang ads sa iyong channel. Bumisita sa {{authLink}} para ayusin ang problema at gamitin muli ang command na ito."
+adTimerEnabled: "Ang mga timer para sa ads ay naka-on na"
+adTimerDisabled: "Ang mga timer para sa ads ay naka-off na"
+adBreakBegin: "Ang {{duration}} ad break ay nagsimula na! Salamat sa pananatili habang naka-break! {{emote}} Ang mga ads ay nakakatulong para suportahan ang aking content. I-consider na mag-subscribe para tanggalin ang ads at suportahan ang stream!"
+adBreakEnd: "Matatapos na ang ad break! {{emote}}"
+noAdMsgProvided: "Please provide a message for the ad timer. Example: {{command}} Consider subscribing to remove ads and support this stream!"
+adMsgTooLong: "The ad message is too long. Please provide a message that is less than 400 characters."
+adMsgNoSlash: "Sorry, I cannot use slash commands like /announce for ad timers."
+adMsgSet: "Custom ad timer message added: {{adMsg}}"
+adMsgEndSet: "Custom ad timer ending message added: {{adMsg}}"
+
+# raid-out
+raidOutMessageCleared: "Na-clear na custom na raid-out message"
+raidOutMessageSet: "Na-add na ang custom na raid-out message"
+raidOutOn: "Ang raid-out alert ay naka-on"
+raidOutOff: "Ang raid-out alert ay naka-off"
+raidOutMessage: {{channelFrom}} ay nag-send ng raid kay {{channelTo}}! Sumali sa'min sa https://twitch.tv/{{channelToLogin}} at magbigay ng suporta! {{emote1}} {{emote2}}
+
+# stream online
+seryBotJoined: "Si Sery_Bot ay nandito na"
+seryBotJoinedFirstMsg: "Si Sery_Bot ay magpapa-alala sa'yo tuwing ito'y nakasali na sa iyong chat. Upang tanggalin ang notifications na ito sa hinaharap, i-type ang !onlinenotifoff (itong intro message na ito ay magdi-display lang ng isang beses)"
+seryBotReauthNeeded: Hi @{{channel}}, si Twitch ay magi-introduce ng mga pagbabago sa bot accounts. Para siguraduhing ginagawa ni Sery_Bot ang trabaho niya, kailangan mong pahintulutan muli ang bot. Gawing puntahan ang {{authLink}} kung kailan mo kaya. Thank you!
+
+# Settings
+onlineNotifOn: "Sasabihan kita kapag ako'y nasa iyong channel."
+onlineNotifOff: "Hindi na kita sasabihan kapag ako'y nasa iyong channel."
+offlineChannelLockOn: "Ang offline channel lock ay naka-on"
+offlineChannelLockOff: "Ang offline channel lock ay naka-off"
+raffleSystemOn: "Ang raffle system ay naka-on"
+raffleSystemOff: "Ang raffle system ay naka-off"
+followBanOn: "Proteksyon sa follow bot ay naka-on"
+followBanOff: "Proteksyon sa follow bot ay naka-off"
+
+# Reauth whisper
+# No links because Twitch considers them spam
+reauthWhisper: "Hello, this is an automated message to let you know that Sery_Bot is no longer protecting your channel. This commonly happens when you change your password. If you would like to readd the bot, visit Sery_Bot's Twitch page and !join the bot back. If you have any questions, feel free to message @SeryCodes on Twitter. Thank you!"
+
+# language
+languageSet: "Language set to Tagalog"
+noLanguageProvided: "No language provided. Please provide a valid language code. Valid language codes are: {{validLangCodes}}"
+invalidLanguage: "Invalid language code. Please provide a valid language code. Valid language codes are: {{validLangCodes}}"

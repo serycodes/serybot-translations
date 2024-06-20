@@ -28,6 +28,11 @@ adTimerEnabled: "Werbe-Timer aktiviert"
 adTimerDisabled: "Werbe-Timer deaktiviert"
 adBreakBegin: "Eine Werbepause von {{duration}} beginnt! Danke, dass du während dieser Pause bei uns bleibst! {{emote}} Werbung unterstützt meine Inhalte. Überlege, zu abonnieren, um Werbung zu entfernen und den Stream zu unterstützen!"
 adBreakEnd: "Die Werbepause endet jetzt! {{emote}}"
+noAdMsgProvided: "Please provide a message for the ad timer. Example: {{command}} Consider subscribing to remove ads and support this stream!"
+adMsgTooLong: "The ad message is too long. Please provide a message that is less than 400 characters."
+adMsgNoSlash: "Sorry, I cannot use slash commands like /announce for ad timers."
+adMsgSet: "Custom ad timer message added: {{adMsg}}"
+adMsgEndSet: "Custom ad timer ending message added: {{adMsg}}"
 
 # raid-out
 raidOutMessageCleared: "Benutzerdefinierte Nachricht für ausgehende Raids gelöscht"
