@@ -20,7 +20,7 @@ rejoinFollowBanDisabled: "Kung gusto mo ng proteksyon mula sa mga follow bots, g
 leaveChannel: "Ako'y umalis na mula sa iyong channel."
 
 # !info
-info: Welcome sa channel ni Sery_Bot! Ang bot na ito ay proteksyon para sa hate raid na maraming paraan para mag-detect at mag-block ng hate raids. Para sa mga detalye, instructions, commands at marami pa, hinihikayat kita na tignan ang {{carrdLink}}
+info: "Welcome sa channel ni Sery_Bot! Ang bot na ito ay proteksyon para sa hate raid na maraming paraan para mag-detect at mag-block ng hate raids. Para sa mga detalye, instructions, commands at marami pa, hinihikayat kita na tignan ang {{carrdLink}}"
 
 # !adtimer and related
 needsAdAuth: "Wala akong pahintulot para i-check ang ads sa iyong channel. Bumisita sa {{authLink}} para ayusin ang problema at gamitin muli ang command na ito."
@@ -39,7 +39,7 @@ raidOutMessageCleared: "Na-clear na custom na raid-out message"
 raidOutMessageSet: "Na-add na ang custom na raid-out message"
 raidOutOn: "Ang raid-out alert ay naka-on"
 raidOutOff: "Ang raid-out alert ay naka-off"
-raidOutMessage: {{channelFrom}} ay nag-send ng raid kay {{channelTo}}! Sumali sa'min sa https://twitch.tv/{{channelToLogin}} at magbigay ng suporta! {{emote1}} {{emote2}}
+raidOutMessage: "{{channelFrom}} ay nag-send ng raid kay {{channelTo}}! Sumali sa'min sa https://twitch.tv/{{channelToLogin}} at magbigay ng suporta! {{emote1}} {{emote2}}"
 
 # stream online
 seryBotJoined: "Si Sery_Bot ay nandito na"
