@@ -39,7 +39,7 @@ Huge shoutout to everyone who has contributed to the translations!
 | Norsk | no |
 | Polski | pl |
 | Português | pt | [NobreHD](https://x.com/NobreHD) |
-| Português - Brasil | pt-br |
+| Português - Brasil | pt-br | [its_a_Mush](https://x.com/its_a_Mush) |
 | Română | ro |
 | Русский | ru |
 | Slovenčina | sk |
