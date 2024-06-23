@@ -24,7 +24,7 @@ Huge shoutout to everyone who has contributed to the translations!
 | --- | --- | --- |
 | Български | bg |
 | Čeština | cs |
-| Dansk | da |
+| Dansk | da | [Lady_Anette](https://x.com/Lady_Anette_ttv) |
 | Deutsch | de | [pack161](https://x.com/Pack161x) |
 | English - UK | en-gb |
 | Español - España | es | [ChronosVoyager](https://x.com/ChronosVoyager) |

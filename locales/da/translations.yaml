@@ -1,0 +1,66 @@
+# generic
+second: "sekund"
+seconds: "sekunder"
+minute: "minut"
+minutes: "minutter"
+hour: "time"
+hours: "timer"
+day: "dag"
+days: "dage"
+
+# !join and related
+needsJoin: "Jeg er ikke tilsluttet din kanal. Sørg for at du !join først"
+needsAuth: "Denne kommando kræver at du autoriserer Sery_Bot først. Klik på dette link for at fuldføre processen. Gå derefter til din kanal og /mod Sery_Bot. Når dette er gjort skriv denne kommando igen. {{authLink}}"
+needsPermissions: "Jeg har ikke opdateret tilladelse i din kanal. Besøg venligst {{authLink}} for at rette dette, gentag derefter denne kommando."
+needsMod: "Jeg har ikke modererings tilladelse i din kanal. Vær sikker på at du har /mod Sery_Bot i din kanal først. Hvis du allerede har gjort dette, prøv at unmodding og remodding botten."
+joinWelcome: "Velkommen til botten! Jeg vil tilslutte mig din kanal når du sender direkte. Hvis du ønsker følger bot beskyttelse så brug kommandoen !followban"
+rejoinWelcome: "Hvis du ser denne meddelelse, så er du sat op! Jeg vil tilslutte mig din kanal når du sender direkte."
+rejoinFollowBanEnabled: "Jeg vil også blokkere følger bots for dig."
+rejoinFollowBanDisabled: "Hiv du ønsker følger bot beskyttelse så brug kommandoen !followban"
+leaveChannel: "Jeg har forladt din kanal"
+
+# !info
+info: "Velkom til Sery_bots kanal! Denne bot er en had angreb beskyttelse bot som har flere måder at opdage og blokkere had angreb. For detaljer, instruktioner, kommandoer og mere, andbefaler jeg at du studere {{carrdLink}}"
+
+# !adtimer and related
+needsAdAuth: "Jeg har ikke tilladelse til at tjekke for reklamer i din kanal. Venligst besøg (dit link) for at rette dette, gentag så denne kommando."
+adTimerEnabled: "Reklame timere aktiveret"
+adTimerDisabled: "Reklame timere deaktiveret"
+adBreakBegin: "En {{duration}} reklamepause starter! Tak fordi du bliver hængende {{emote}} Reklamer hjælper med at støtte min kanal. Overvej at abonnere for at undgå reklamer og støtte kanalen!"
+adBreakEnd: "Reklamepausen er slut! {{emote}}"
+noAdMsgProvided: "Venligst angiv en meddelelse for reklame timeren. Eksempel: {{command}} Overvej at abonnere for at undgå reklamer og støtte kanalen!"
+adMsgTooLong: "Reklame meddelelsen er for lang. Venligst lav en meddelelse der er kortere end 400 tegn."
+adMsgNoSlash: "Beklager, jeg kan ikke bruge skråstreg kommandoer som /announce for reklame timer"
+adMsgSet: "Personlig reklame timer meddelelse tilføjet: {{adMsg}}"
+adMsgEndSet: "Personlig reklame timer slut meddelelse tilføjet: {{adMsg}}"
+
+# raid-out
+raidOutMessageCleared: "Personlig raid-ud meddelelse fjernet"
+raidOutMessageSet: "Personlig raid-ud meddelelse tilføjet"
+raidOutOn: "Raid-ud advarsel aktiveret"
+raidOutOff: "Raid-ud advarsel deaktiveret"
+raidOutMessage: "{{channelFrom}} har startet et raid af {{channelTo}}! Mød op med os hos https://twitch.tv/{{channelToLogin}} og vise noget støtte og kærlighed {{emote1}} {{emote2}}"
+
+# stream online
+seryBotJoined: "Sery_bot er ankommet"
+seryBotJoinedFirstMsg: "Sery_bot vil nu annoncere når den ankommer i din chat. For at slukke for disse fremtidige notofikation, indtast !onlinenotifoff (denne introduktion meddelelse vil kun blive vist en gang)"
+seryBotReauthNeeded: "Hej @{{channel}}, Twitch introducere ændringer til bot kontoer. For at sikre at Sery_Bot virker som forventet, er du nødt til at genautorisere botte. Besøg venligst denne side {{authLink}} når du har mulighed for det, Tak"
+
+# Settings
+onlineNotifOn: "Jeg vil notificere dig når jeg er i din kanal"
+onlineNotifOff: "Jeg vil ikke længere notificere dig når jeg er i din kanal"
+offlineChannelLockOn: "Offline kanal lås aktiveret"
+offlineChannelLockOff: "Offline kanal lås deaktiveret"
+raffleSystemOn: "Lodtrækning system aktiveret"
+raffleSystemOff: "Lodtrækning system Deaktiveret"
+followBanOn: "Følger bot beskyttelse aktiveret"
+followBanOff: "Følger bot beskyttelse deaktiveret"
+
+# Reauth whisper
+# No links because Twitch considers them spam
+reauthWhisper: "Hej, dette er en automatiseret meddelelse for at informere dig om at Sery_Bot ikke længere beskytter din kanal. Dette vil ofte ske hvis du ændre dit kodeord. Hvis du ønsker at genaktivere boten, besøge Sery_bots Twitch side og brug kommandoen !join for at få boten tilbage. Hvis du har spørgsmål er du velkommen til at sende en besked til @SeryCodes på Twitter, Tak."
+
+# language
+languageSet: "Sprog sat til Dansk"
+noLanguageProvided: "Intet sprog til rådighed. Venligst angiv en gyldig sprogkode. Gyldige sprogkoder er: {{validLangCodes}}"
+invalidLanguage: "Ugyldig sprogkode. Venligst angiv gyldig sprogkode. Gyldige sprogkoder er: {{validLangCodes}}"
