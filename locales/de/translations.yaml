@@ -28,11 +28,11 @@ adTimerEnabled: "Werbe-Timer aktiviert"
 adTimerDisabled: "Werbe-Timer deaktiviert"
 adBreakBegin: "Eine Werbepause von {{duration}} beginnt! Danke, dass du während dieser Pause bei uns bleibst! {{emote}} Werbung unterstützt meine Inhalte. Überlege, zu abonnieren, um Werbung zu entfernen und den Stream zu unterstützen!"
 adBreakEnd: "Die Werbepause endet jetzt! {{emote}}"
-noAdMsgProvided: "Please provide a message for the ad timer. Example: {{command}} Consider subscribing to remove ads and support this stream!"
-adMsgTooLong: "The ad message is too long. Please provide a message that is less than 400 characters."
-adMsgNoSlash: "Sorry, I cannot use slash commands like /announce for ad timers."
-adMsgSet: "Custom ad timer message added: {{adMsg}}"
-adMsgEndSet: "Custom ad timer ending message added: {{adMsg}}"
+noAdMsgProvided: "Bitte gebe eine Nachricht für den Werbetimer ein. Beispiel: {{command}} Mit einem Abo kannst du diesen Stream werbefrei genießen und mich gleichzeitig unterstützen!"
+adMsgTooLong: "Die Werbenachricht ist zu lang. Sie muss weniger als 400 Zeichen beinhalten."
+adMsgNoSlash: "Entschuldige, ich kann leider keine Slash-Kommandos wie /announce im Werbe-Timer verwenden."
+adMsgSet: "Eigene Nachricht für den Werbe-Anfang hinzugefügt: {{adMsg}}"
+adMsgEndSet: "Eigene Nachricht für das Werbe-Ende hinzugefügt: {{adMsg}}"
 
 # raid-out
 raidOutMessageCleared: "Benutzerdefinierte Nachricht für ausgehende Raids gelöscht"
@@ -58,9 +58,9 @@ followBanOff: "Schutz vor Follow-Bots deaktiviert"
 
 # Reauth whisper
 # No links because Twitch considers them spam
-reauthWhisper: "Hello, this is an automated message to let you know that Sery_Bot is no longer protecting your channel. This commonly happens when you change your password. If you would like to readd the bot, visit Sery_Bot's Twitch page and !join the bot back. If you have any questions, feel free to message @SeryCodes on Twitter. Thank you!"
+reauthWhisper: "Hallo, dies ist eine automatische Nachricht, um dich zu informieren, dass Sery_Bot deinen Kanal nicht mehr schützt. Das passiert häufig, wenn du dein Passwort änderst. Wenn du den Bot erneut hinzufügen möchtest, besuche die Twitch-Seite von Sery_Bot und schreibe !join um ihn wieder hinzuzufügen. Wenn bei Fragen, kannst du @SeryCodes auf Twitter eine Nachricht schicken. Dankeschön!"
 
 # language
-languageSet: "Language set to German"
-noLanguageProvided: "No language provided. Please provide a valid language code. Valid language codes are: {{validLangCodes}}"
-invalidLanguage: "Invalid language code. Please provide a valid language code. Valid language codes are: {{validLangCodes}}"
+languageSet: "Sprache zu Deutsch geändert"
+noLanguageProvided: "Keine Sprache ausgewählt. Bitte ein valides Sprachkürzel auswählen. Diese sind: {{validLangCodes}}"
+invalidLanguage: "Ungültiges Sprachkürzel. Bitte ein valides Sprachkürzel auswählen. Diese sind: {{validLangCodes}}"
