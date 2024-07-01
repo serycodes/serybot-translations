@@ -32,7 +32,7 @@ Huge shoutout to everyone who has contributed to the translations!
 | Suomi | fi |
 | Français | fr |
 | Magyar | hu |
-| Italiano | it |
+| Italiano | it | [martina](https://x.com/martibtw) |
 | 日本語 | ja |
 | 한국어 | ko |
 | Nederlands | nl |

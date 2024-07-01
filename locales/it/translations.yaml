@@ -1,0 +1,66 @@
+# generic
+second: "secondo"
+seconds: "secondi"
+minute: "minuto"
+minutes: "minuti"
+hour: "ora"
+hours: "ore"
+day: "giorno"
+days: "giorni"
+
+# !join and related
+needsJoin: "Non faccio parte del tuo canale. Assicurati prima di aver digitato !join."
+needsAuth: "Questo commando richiede che tu abbia autorizzato prima Sery_Bot. Clicca su questo link per completare il processo. Poi, nella chat del tuo canale digita /mod Sery_Bot per rendermi moderator del canale.  Una volta terminato il procedimento, prova nuovamente a digitare il comando. {{authLink}}"
+needsPermissions: "Non ho aggiornato I permessi per il tuo canale. Per favore visita il sito  {{authLink}} per risolvere il problema, poi digita nuovamente questo comando."
+needsMod: "Non sono moderator nel tuo canale. Assicurati di aver digitato /mod Sery_Bot nel tuo canale. Se lo hai già fatto e il problema persiste, prova a togliere e rimettere il ruolo di moderatore."
+joinWelcome: "Benvenuto al bot! Arriverò nel tuo canale quando sei in diretta. Se vuoi protezione contro il follow-botting, assicurati di usare il comando !followban"
+rejoinWelcome: "Se vedi questo messaggio, è tutto pronto! Arriverò nel tuo canale quando sarai in diretta."
+rejoinFollowBanEnabled: "Bloccherò I follow bot per te!"
+rejoinFollowBanDisabled: " Se vuoi protezione contro il follow-botting, assicurati di usare il comando !followban"
+leaveChannel: "Ho lasciato il tuo canale."
+
+# !info
+info:  “Benvenuti nel canale di Sery_Bot! Questo bot è stato creato per riconoscere e proteggerti in molteplici modi dagli hate-raid. Per dettagli, istruzioni, comandi e altro, ti consiglio vivamente di dare un'occhiata a {{carrdLink}}"
+
+# !adtimer and related
+needsAdAuth: "Non ho il permesso di controllare le pubblicità nel tuo canale. Per favore visita  {{authLink}} per risolvere il problema, poi digita nuovamente il comando."
+adTimerEnabled: "Timers delle pubblicità abilitati"
+adTimerDisabled: "Timers delle pubblicità disabilitati"
+adBreakBegin: "Una pubblicità di  {{duration}} è appena cominciata! Ti ringrazio per essere ancora qui con me durante l'attesa! {{emote}} Le pubblicità mi aiutano tanto a supportare il canale. C'è la possibilità di iscriversi al canale per rimuovere le pubblicità e supportarmi direttamente!"
+adBreakEnd: "La pubblicità è finita! {{emote}}"
+noAdMsgProvided: "Per favore scrivi un messaggio per il timer della pubblicità. Per esempio: {{command}} Considera la possibilità di iscriverti al canale per rimuovere le pubblicità e supportarmi direttamente!"
+adMsgTooLong: "Il messaggio di pubblicità è troppo lungo. Per favore scrivi un messaggio con meno di  400 caratteri."
+adMsgNoSlash: "Scusa, non posso usare I comandi slash come /announce per i timers delle pubblicità."
+adMsgSet: "Messaggio del timer della pubblicità personalizzato: {{adMsg}}"
+adMsgEndSet: "Messaggio della fine del timer della pubblicità personalizzato aggiunto: {{adMsg}}"
+
+# raid-out
+raidOutMessageCleared: "Messaggio personalizzato del raid cancellato"
+raidOutMessageSet: "Messaggio personalizzato del raid aggiunto"
+raidOutOn: "Avviso del raid abilitato"
+raidOutOff: "Avviso del raid disabilitato"
+raidOutMessage: "{{channelFrom}} ha fatto il raid a {{channelTo}}! Unisciti a  https://twitch.tv/{{channelToLogin}} e mostra tutto il tuo sostegno! {{emote1}} {{emote2}}"
+
+# stream online
+seryBotJoined: "Sery_Bot si è unito"
+seryBotJoinedFirstMsg: "D'ora in poi Sery_Bot ti manderà una notifica quando si unirà al tuo canale. Per disabilitare queste notifiche, digita !onlinenotifoff (questo messaggio di introduzione verrà scritto una sola volta)"
+seryBotReauthNeeded: "Hey @{{channel}}, Twitch sta introducendo dei cambiamenti per gli account bot. Per assicurarsi che Sery_Bot continui a funzionare come al solito, dovrai autorizzare nuovamente il bot. Per favore visita {{authLink}} quando hai tempo. Grazie!"
+
+# Settings
+onlineNotifOn: "Ti invierò un messaggio quando sono nel tuo canale."
+onlineNotifOff: "Non ti invierò più messaggi quando sono nel tuo canale."
+offlineChannelLockOn: "Blocco del canale offline abilitato"
+offlineChannelLockOff: "Blocco del canale offline disabilitato"
+raffleSystemOn: "Sistema di sorteggio abilitato"
+raffleSystemOff: "Sistema di sorteggio disabilitato"
+followBanOn: "Protezione dal follow bot abilitata"
+followBanOff: "Protezione dal follow bot disabilitata"
+
+# Reauth whisper
+# No links because Twitch considers them spam
+reauthWhisper: "Ciao, questo è un messaggio automatic mandato per farti sapere che Sery_Bot non sta più proteggendo il tuo canale. Questo può succedere quando cambi password. Se volessi aggiungere nuovamente il bot, visita la pagina Twitch di  Sery_Bot e digita nuovamente !join in chat. Per qualsiasi domanda, contatta @SeryCodes su X/ Twitter. Grazie!"
+
+# language
+languageSet: "Lingua italiana impostata"
+noLanguageProvided: "Nessuna lingua fornita. Per favore fornisci una lingua supportata. Le lingue supportate sono: {{validLangCodes}}"
+invalidLanguage: "Lingua non supportata. Per favore fornisci una lingua supportata. Le lingue supportate sono: {{validLangCodes}}"
