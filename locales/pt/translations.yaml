@@ -13,10 +13,10 @@ needsJoin: "Eu não entrei no seu canal. Certifique-se de usar !join primeiro."
 needsAuth: "Este comando requer que autorize com Sery_Bot primeiro. Clique neste link para completar este processo. Em seguida, vá para o seu canal e /mod Sery_Bot. Depois de terminar, execute este comando novamente. {{authLink}}"
 needsPermissions: "Eu não tenho permissões atualizadas para o seu canal. Por favor, visite {{authLink}} para corrigir isso, depois execute este comando novamente."
 needsMod: "Eu não sou moderador no seu canal. Certifique-se de usar /mod Sery_Bot no seu canal primeiro. Se você já fez isso, tente desmoderar e remoderar o bot."
-joinWelcome: "Bem-vindo ao bot! Eu entrarei no seu canal quando você estiver ao vivo. Se quiser usar a proteção contra follow bots, certifique-se de usar !followban"
+joinWelcome: "Bem-vindo ao bot! Eu entrarei no seu canal quando você estiver ao vivo. Se quiser usar a proteção contra follow bots, certifique-se de usar !followbots"
 rejoinWelcome: "Se está a ver esta mensagem, está configurado! Eu vou entrar no seu canal quando você estiver ao vivo."
 rejoinFollowBanEnabled: "Também estou a bloquear follow bots para você!"
-rejoinFollowBanDisabled: "Se quiser usar a proteção contra follow bot, certifique-se de usar !followban"
+rejoinFollowBanDisabled: "Se quiser usar a proteção contra follow bot, certifique-se de usar !followbots"
 leaveChannel: "Eu saí do seu canal."
 
 # !info

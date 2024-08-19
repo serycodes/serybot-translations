@@ -13,10 +13,10 @@ needsJoin: "I have not joined your channel. Make sure you !join first."
 needsAuth: "This command requires you to authorize with Sery_Bot first. Click this link to complete this process. Secondly, go to your channel and /mod Sery_Bot. Once you are done, run this command again. {{authLink}}"
 needsPermissions: "I do not have updated permissions for your channel. Please visit {{authLink}} to fix this, then run this command again."
 needsMod: "I am not modded in your channel. Make sure you /mod Sery_Bot in your channel first. If you already did, try unmodding and remodding the bot."
-joinWelcome: "Welcome to the bot! I will join your channel when you are live. If you'd like follow bot protection, make sure you run !followban"
+joinWelcome: "Welcome to the bot! I will join your channel when you are live. If you'd like follow bot protection, make sure you run !followbots"
 rejoinWelcome: "If you're seeing this message, you're set up! I am joining your channel when you are live."
 rejoinFollowBanEnabled: "I'm also blocking follow bots for you!"
-rejoinFollowBanDisabled: "If you'd like follow bot protection, make sure you run !followban"
+rejoinFollowBanDisabled: "If you'd like follow bot protection, make sure you run !followbots"
 leaveChannel: "I have left your channel."
 
 # !info
