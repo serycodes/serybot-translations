@@ -1,0 +1,66 @@
+# generic
+second: "秒"
+seconds: "秒"
+minute: "分钟"
+minutes: "分钟"
+hour: "小时"
+hours: "小时"
+day: "天"
+days: "天"
+
+# !join and related
+needsJoin: "我还没有加入你的频道。请确保你先输入 !join。"
+needsAuth: "此命令要求您先通过 Sery_Bot 授权。点击此链接完成此过程。其次，前往您的频道并使用 /mod Sery_Bot。完成后，再次运行此命令。{{authLink}}"
+needsPermissions: "我没有您频道的最新权限。请浏览 {{authLink}} 进行修复，然后再次运行此命令。"
+needsMod: "我在您的频道中没有被设为管理员。请确保您已在频道中使用 /mod Sery_Bot。如果已经操作过，尝试取消管理员并重新设置我为管理员。"
+joinWelcome: "欢迎使用此机器人！我会在您直播时加入您的频道。如果您需要关注机器人保护，请使用命令 !followbots。"
+rejoinWelcome: "如果您看到此消息，说明您已设置完毕！我会在您直播时加入您的频道。"
+rejoinFollowBanEnabled: "我还会帮您屏蔽关注机器人！"
+rejoinFollowBanDisabled: "如果您需要关注机器人保护，请使用命令 !followbots。"
+leaveChannel: "我已离开您的频道。"
+
+# !info
+info: "欢迎来到 Sery_Bot 的频道！此机器人是一个仇恨袭击保护机器人，具有多种检测和阻止仇恨袭击的方法。有关详细信息、说明、命令等，我强烈建议您查看 {{carrdLink}}"
+
+# !adtimer and related
+needsAdAuth: "我没有权限检查您频道中的广告。请浏览 {{authLink}} 进行修复，然后再次运行此命令。"
+adTimerEnabled: "广告计时器已启用"
+adTimerDisabled: "广告计时器已禁用"
+adBreakBegin: "正在开始 {{duration}} 的广告中断！感谢您在这段时间内继续支持我们！{{emote}} 广告帮助支持我的内容。考虑订阅以去除广告并支持直播！"
+adBreakEnd: "广告中断即将结束！{{emote}}"
+noAdMsgProvided: "请提供广告计时器的消息。示例：{{command}} 考虑订阅以去除广告并支持这个直播！"
+adMsgTooLong: "广告消息太长了。请提供一个少于 400 个字符的消息。"
+adMsgNoSlash: "抱歉，我不能使用像 /announce 这样的斜杠命令来设置广告计时器。"
+adMsgSet: "自定义广告计时器消息已添加：{{adMsg}"
+adMsgEndSet: "自定义广告计时器结束消息已添加：{{adMsg}}"
+
+# raid-out
+raidOutMessageCleared: "自定义突袭退出消息已清除"
+raidOutMessageSet: "自定义突袭退出消息已添加"
+raidOutOn: "突袭退出提醒已启用"
+raidOutOff: "突袭退出提醒已禁用"
+raidOutMessage: "{{channelFrom}} 已将突袭转移到 {{channelTo}}！快来 https://twitch.tv/{{channelToLogin}} 加入我们并送上支持吧！{{emote1}} {{emote2}"
+
+# stream online
+seryBotJoined: "Sery_Bot 已加入"
+seryBotJoinedFirstMsg: "Sery_Bot 现在会在加入您的聊天时通知您。要关闭这些未来的通知，请输入 !onlinenotifoff（此介绍消息仅会显示一次）"
+seryBotReauthNeeded: "嗨 @{{channel}}，Twitch 正在对机器人账户进行更改。为了确保 Sery_Bot 继续正常工作，您需要重新授权机器人。请在方便时访问 {{authLink}}。谢谢！"
+
+# Settings
+onlineNotifOn: "我会在我进入您的频道时通知您。"
+onlineNotifOff: "我将不再在进入您的频道时通知您。"
+offlineChannelLockOn: "离线频道锁定已启用"
+offlineChannelLockOff: "离线频道锁定已禁用"
+raffleSystemOn: "抽奖系统已启用"
+raffleSystemOff: "抽奖系统已禁用"
+followBanOn: "关注机器人保护已启用"
+followBanOff: "关注机器人保护已禁用"
+
+# Reauth whisper
+# No links because Twitch considers them spam
+reauthWhisper: "你好，这是自动消息，通知您 Sery_Bot 不再保护您的频道。这通常发生在您更改密码时。如果您想重新添加机器人，请访问 Sery_Bot 的 Twitch 页面并使用 !join 将机器人重新加入。如果您有任何问题，请随时在 Twitter 上联系 @SeryCodes。谢谢！"
+
+# language
+languageSet: "语言已设置为中文"
+noLanguageProvided: "未提供语言。请提供有效的语言代码。有效的语言代码包括：{{validLangCodes}}"
+invalidLanguage: "无效语言代码。请提供有效的语言代码。有效的语言代码包括：{{validLangCodes}}"

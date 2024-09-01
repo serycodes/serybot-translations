@@ -47,7 +47,7 @@ Huge shoutout to everyone who has contributed to the translations!
 | ภาษาไทย | th |
 | Türkçe | tr |
 | Tiếng Việt | vi |
-| 中文 简体 | zh-cn |
+| 中文 简体 | zh-cn | [RythonDev](https://twitch.tv/RythonDev) |
 | 中文 繁體 | zh-tw |
 
 
