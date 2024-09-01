@@ -48,7 +48,7 @@ Huge shoutout to everyone who has contributed to the translations!
 | Türkçe | tr |
 | Tiếng Việt | vi |
 | 中文 简体 | zh-cn | [RythonDev](https://twitch.tv/RythonDev) |
-| 中文 繁體 | zh-tw |
+| 中文 繁體 | zh-tw | [RythonDev](https://twitch.tv/RythonDev) |
 
 
 ## Unofficial Languages
