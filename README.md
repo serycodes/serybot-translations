@@ -26,7 +26,7 @@ Huge shoutout to everyone who has contributed to the translations!
 | Čeština | cs |
 | Dansk | da | [Lady_Anette](https://x.com/Lady_Anette_ttv) |
 | Deutsch | de | [pack161](https://x.com/Pack161x) |
-| English - UK | en-gb |
+| English - UK | en-gb | [RythonDev](https://twitch.tv/RythonDev) |
 | Español - España | es | [ChronosVoyager](https://x.com/ChronosVoyager) |
 | Español - Latinoamérica | es-mx | [pixel](https://x.com/thepixeltwink) |
 | Suomi | fi |
