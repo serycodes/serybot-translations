@@ -1,0 +1,66 @@
+# generic
+second: "秒"
+seconds: "秒"
+minute: "分鐘"
+minutes: "分鐘"
+hour: "小時"
+hours: "小時"
+day: "天"
+days: "天"
+
+# !join and related
+needsJoin: "我還沒有加入你的頻道。請確保你先輸入 !join。"
+needsAuth: "此命令要求您先透過 Sery_Bot 授權。點擊此連結完成此過程。其次，前往您的頻道並使用 /mod Sery_Bot。完成後，再次執行此命令。 {{authLink}}"
+needsPermissions: "我沒有您頻道的最新權限。請瀏覽 {{authLink}} 進行修復，然後再次執行此命令。"
+needsMod: "我在您的頻道中沒有被設為管理員。請確保您已在頻道中使用 /mod Sery_Bot。如果已經操作過，請嘗試取消管理員並重新設定我為管理員。"
+joinWelcome: "歡迎使用此機器人！我會在您直播時加入您的頻道。如果您需要關注機器人保護，請使用指令 !followbots。"
+rejoinWelcome: "如果您看到此訊息，表示您已設定完畢！我會在您直播時加入您的頻道。"
+rejoinFollowBanEnabled: "我還會幫您封鎖關注機器人！"
+rejoinFollowBanDisabled: "如果您需要關注機器人保護，請使用指令 !followbots。"
+leaveChannel: "我已離開您的頻道。"
+
+# !info
+info: "歡迎來到 Sery_Bot 的頻道！此機器人是一個仇恨攻擊保護機器人，具有多種檢測和阻止仇恨攻擊的方法。有關詳細資訊、說明、命令等，我強烈建議您查看 {{carrdLink}}"
+
+# !adtimer and related
+needsAdAuth: "我沒有權限檢查您頻道中的廣告。請瀏覽 {{authLink}} 進行修復，然後再次執行此命令。"
+adTimerEnabled: "廣告計時器已啟用"
+adTimerDisabled: "廣告計時器已停用"
+adBreakBegin: "正在開始 {{duration}} 的廣告中斷！感謝您在這段時間內繼續支持我們！ {{emote}} 廣告幫助支持我的內容。考慮訂閱以去除廣告並支持直播！"
+adBreakEnd: "廣告中斷即將結束！ {{emote}}"
+noAdMsgProvided: "請提供廣告計時器的訊息。例如：{{command}} 考慮訂閱以去除廣告並支持這個直播！"
+adMsgTooLong: "廣告訊息太長了。請提供一個少於 400 個字元的訊息。"
+adMsgNoSlash: "抱歉，我不能使用像 /announce 這樣的斜線命令來設定廣告計時器。"
+adMsgSet: "自訂廣告計時器訊息已新增：{{adMsg}}"
+adMsgEndSet: "自訂廣告計時器結束訊息已新增：{{adMsg}}"
+
+# raid-out
+raidOutMessageCleared: "自訂突襲退出訊息已清除"
+raidOutMessageSet: "自訂突襲退出訊息已添加"
+raidOutOn: "突襲退出提醒已啟用"
+raidOutOff: "突襲退出提醒已停用"
+raidOutMessage: "{{channelFrom}} 已將突襲轉移到 {{channelTo}}！快來 https://twitch.tv/{{channelToLogin}} 加入我們並送上支援吧！ {{emote1}} {{emote2}}"
+
+# stream online
+seryBotJoined: "Sery_Bot 已加入"
+seryBotJoinedFirstMsg: "Sery_Bot 現在會在加入您的聊天時通知您。若要關閉這些未來的通知，請輸入 !onlinenotifoff（此介紹訊息只會顯示一次）"
+seryBotReauthNeeded: "嗨 @{{channel}}，Twitch 正在對機器人帳戶進行更改。為了確保 Sery_Bot 繼續正常運作，您需要重新授權機器人。請在方便時造訪 {{authLink}}。謝謝！"
+
+# Settings
+onlineNotifOn: "我會在我進入您的頻道時通知您。"
+onlineNotifOff: "我將不再在進入您的頻道時通知您。"
+offlineChannelLockOn: "離線頻道鎖定已啟用"
+offlineChannelLockOff: "離線頻道鎖定已停用"
+raffleSystemOn: "抽獎系統已啟用"
+raffleSystemOff: "抽獎系統已停用"
+followBanOn: "關注機器人保護已啟用"
+followBanOff: "關注機器人保護已停用"
+
+# Reauth whisper
+# No links because Twitch considers them spam
+reauthWhisper: "你好，這是自動訊息，通知您 Sery_Bot 不再保護您的頻道。這通常發生在您更改密碼時。如果您想重新新增機器人，請造訪 Sery_Bot 的 Twitch 頁面並使用 !join 將機器人重新加入。如果您有任何問題，請隨時在推特（Twitter）上聯絡 @SeryCodes。謝謝！"
+
+# language
+languageSet: "語言已設定為繁體中文"
+noLanguageProvided: "未提供語言。請提供有效的語言代碼。有效的語言代碼包括：{{validLangCodes}}"
+invalidLanguage: "無效語言代碼。請提供有效的語言代碼。有效的語言代碼包括：{{validLangCodes}}"

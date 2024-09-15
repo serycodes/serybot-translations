@@ -1,0 +1,66 @@
+# generic
+second: "second"
+seconds: "seconds"
+minute: "minute"
+minutes: "minutes"
+hour: "hour"
+hours: "hours"
+day: "day"
+days: "days"
+
+# !join and related
+needsJoin: "I have not joined your channel. Make sure you !join first."
+needsAuth: "This command requires you to authorise with Sery_Bot first. Click this link to complete this process. Secondly, go to your channel and /mod Sery_Bot. Once you are done, run this command again. {{authLink}}"
+needsPermissions: "I do not have updated permissions for your channel. Please visit {{authLink}} to fix this, then run this command again."
+needsMod: "I am not modded in your channel. Make sure you /mod Sery_Bot in your channel first. If you already did, try unmodding and remodding the bot."
+joinWelcome: "Welcome to the bot! I will join your channel when you are live. If you'd like follow bot protection, make sure you run !followbots"
+rejoinWelcome: "If you're seeing this message, you're set up! I am joining your channel when you are live."
+rejoinFollowBanEnabled: "I'm also blocking follow bots for you!"
+rejoinFollowBanDisabled: "If you'd like follow bot protection, make sure you run !followbots"
+leaveChannel: "I have left your channel."
+
+# !info
+info: "Welcome to Sery_Bot's channel! This bot is a hate raid protection bot that has multiple ways to detect and block hate raids. For details, instructions, commands and more, I strongly encourage you to check out {{carrdLink}}"
+
+# !adtimer and related
+needsAdAuth: "I do not have permission to check for ads in your channel. Please visit {{authLink}} to fix this, then run this command again."
+adTimerEnabled: "Ad timers enabled"
+adTimerDisabled: "Ad timers disabled"
+adBreakBegin: "A {{duration}} ad break is starting! Thank you for sticking with us through this break! {{emote}} Ads help support my content. Consider subscribing to remove ads and support the stream!"
+adBreakEnd: "The ad break is finishing now! {{emote}}"
+noAdMsgProvided: "Please provide a message for the ad timer. Example: {{command}} Consider subscribing to remove ads and support this stream!"
+adMsgTooLong: "The ad message is too long. Please provide a message that is less than 400 characters."
+adMsgNoSlash: "Sorry, I cannot use slash commands like /announce for ad timers."
+adMsgSet: "Custom ad timer message added: {{adMsg}}"
+adMsgEndSet: "Custom ad timer ending message added: {{adMsg}}"
+
+# raid-out
+raidOutMessageCleared: "Custom raid-out message cleared"
+raidOutMessageSet: "Custom raid-out message added"
+raidOutOn: "Raid-out alert enabled"
+raidOutOff: "Raid-out alert disabled"
+raidOutMessage: "{{channelFrom}} has sent the raid over to {{channelTo}}! Join us over at https://twitch.tv/{{channelToLogin}} and show some love! {{emote1}} {{emote2}}"
+
+# stream online
+seryBotJoined: "Sery_Bot has joined"
+seryBotJoinedFirstMsg: "Sery_Bot will now notify you when it has joined your chat. To turn off these future notifications, type in !onlinenotifoff (this intro message will only display once)"
+seryBotReauthNeeded: "Hi @{{channel}}, Twitch is introducing changes to bot accounts. To ensure Sery_Bot continues to work as expected, you'll have to reauth the bot. Please visit {{authLink}} when you are able. Thank you!"
+
+# Settings
+onlineNotifOn: "I will notify you when I am in your channel."
+onlineNotifOff: "I will no longer notify you when I am in your channel."
+offlineChannelLockOn: "Offline channel lock enabled"
+offlineChannelLockOff: "Offline channel lock disabled"
+raffleSystemOn: "Raffle system enabled"
+raffleSystemOff: "Raffle system disabled"
+followBanOn: "Follow bot protection enabled"
+followBanOff: "Follow bot protection disabled"
+
+# Reauth whisper
+# No links because Twitch considers them spam
+reauthWhisper: "Hello, this is an automated message to let you know that Sery_Bot is no longer protecting your channel. This commonly happens when you change your password. If you would like to readd the bot, visit Sery_Bot's Twitch page and !join the bot back. If you have any questions, feel free to message @SeryCodes on Twitter. Thank you!"
+
+# language
+languageSet: "Language set to English"
+noLanguageProvided: "No language provided. Please provide a valid language code. Valid language codes are: {{validLangCodes}}"
+invalidLanguage: "Invalid language code. Please provide a valid language code. Valid language codes are: {{validLangCodes}}"
