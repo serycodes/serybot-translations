@@ -20,7 +20,7 @@ rejoinFollowBanDisabled: " Se vuoi protezione contro il follow-botting, assicura
 leaveChannel: "Ho lasciato il tuo canale."
 
 # !info
-info:  “Benvenuti nel canale di Sery_Bot! Questo bot è stato creato per riconoscere e proteggerti in molteplici modi dagli hate-raid. Per dettagli, istruzioni, comandi e altro, ti consiglio vivamente di dare un'occhiata a {{carrdLink}}"
+info: "Benvenuti nel canale di Sery_Bot! Questo bot è stato creato per riconoscere e proteggerti in molteplici modi dagli hate-raid. Per dettagli, istruzioni, comandi e altro, ti consiglio vivamente di dare un'occhiata a {{carrdLink}}"
 
 # !adtimer and related
 needsAdAuth: "Non ho il permesso di controllare le pubblicità nel tuo canale. Per favore visita  {{authLink}} per risolvere il problema, poi digita nuovamente il comando."

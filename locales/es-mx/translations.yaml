@@ -21,7 +21,7 @@ leaveChannel: "Ya no soy parte de tu canal."
 
 # !info
 info: "¡Bienvenido al canal de Sery_Bot! Este bot te protege de las raids de odio, y tiene múltiples formas de detectarlas y bloquearlas. Para más detalles, instrucciones, comandos y más información, te recomiendo mucho que cheques este enlace: {{carrdLink}}"
- 
+
 # !adtimer and related
 needsAdAuth: "No tengo permisos para comprobar los anuncios en tu canal. Por favor, haz clic en el enlace {{authLink}} para solucionarlo, y ejecuta este comando de nuevo."
 adTimerEnabled: "Temporizadores de anuncios activados."
@@ -45,7 +45,7 @@ raidOutMessage: "¡{{channelFrom}} ha enviado una raid a {{channelTo}}! ¡Únete
 seryBotJoined: "Sery_Bot se ha unido a tu canal."
 seryBotJoinedFirstMsg: "Sery_Bot te avisará cuando se una a tu canal. Para desactivar estas notificaciones en el futuro, ejecuta el comando !onlinenotifoff (este mensaje introductorio sólo se mostrará una vez)"
 seryBotReauthNeeded: "Hola @{{channel}}, Twitch está introduciendo cambios en las cuentas de bots. Para asegurar que Sery_bot siga funcionando de forma correcta, tendrás que volver a autorizar el bot. Por favor, haz clic en el enlace {{authLink}} en cuanto sea posible. ¡Gracias!"
- 
+
 # Settings
 onlineNotifOn: "Te avisaré cuando me una a tu canal."
 onlineNotifOff: "Ya no te avisaré cuando me una a tu canal."
@@ -55,12 +55,12 @@ raffleSystemOn: "Sistema de sorteos activado."
 raffleSystemOff: "Sistema de sorteos desactivado."
 followBanOn: "Protección contra los ataques de seguidores falsos (bots) activado."
 followBanOff: "Protección contra los ataques de seguidores falsos (bots) desactivado."
- 
+
 # Reauth whisper
 # No links because Twitch considers them spam
 reauthWhisper: "Hola, este es un mensaje automatico para hacerte saber que Sery_Bot ya no está protegiendo tu canal. Esto normalmente occure cuando cambias tu contraseña. Si te gustaría reañadir al bot, visita en canal de Twitch de Sery_Bot y utiliza el comando !join. Si tienes alguna duda, por favor contacta a @SeryCodes en Twitter. ¡Gracias!"
 
 # language
 languageSet: "Idioma configurado al español"
-noLanguageProvided: "Idioma no indicado. Escribe un codigo de idioma valido. Los codigos validos de idioma son: {{validLangCodes}}".
-invalidLanguage: "Codigo de idioma invalido. Escribe un codigo de idioma valido. Los codigos validos de idioma son: {{validLangCodes}}".
+noLanguageProvided: "Idioma no indicado. Escribe un codigo de idioma valido. Los codigos validos de idioma son: {{validLangCodes}}"
+invalidLanguage: "Codigo de idioma invalido. Escribe un codigo de idioma valido. Los codigos validos de idioma son: {{validLangCodes}}"
