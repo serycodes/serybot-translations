@@ -64,3 +64,7 @@ reauthWhisper: "Hello, this is an automated message to let you know that Sery_Bo
 languageSet: "Language set to English"
 noLanguageProvided: "No language provided. Please provide a valid language code. Valid language codes are: {{validLangCodes}}"
 invalidLanguage: "Invalid language code. Please provide a valid language code. Valid language codes are: {{validLangCodes}}"
+
+# spamcheck
+spamcheckOn: "Spam checks enabled"
+spamcheckOff: "Spam checks disabled"
