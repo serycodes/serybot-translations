@@ -1,0 +1,78 @@
+# generic
+second: "秒"
+seconds: "秒"
+minute: "分"
+minutes: "分"
+hour: "時間"
+hours: "時間"
+day: "日"
+days: "日"
+
+# !join and related
+needsJoin: "チャンネルに参加していません。最初に!joinを実行してください。"
+needsAuth: "このコマンドを実行するには、まずSery_Botで認証する必要があります。このリンクをクリックしてプロセスを完了してください。次に、チャンネルに移動して/mod Sery_Botを実行してください。完了したら、このコマンドを再度実行してください。{{authLink}}"
+needsPermissions: "チャンネルの権限が更新されていません。{{authLink}}にアクセスして修正し、このコマンドを再度実行してください。"
+needsMod: "チャンネルでモデレーターに設定されていません。チャンネルで/mod Sery_Botを実行してください。すでに実行した場合は、ボットのモデレーター設定を解除して再設定してください。"
+joinWelcome: "ボットへようこそ！ライブ配信中にチャンネルに参加します。フォローボット保護を希望する場合は、!followbotsを実行してください。"
+rejoinWelcome: "このメッセージが表示されている場合、設定が完了しています！ライブ配信中にチャンネルに参加します。"
+rejoinFollowBanEnabled: "フォローボットをブロックしています！"
+rejoinFollowBanDisabled: "フォローボット保護を希望する場合は、!followbotsを実行してください。"
+leaveChannel: "チャンネルを離れました。"
+
+# !info
+info: "Sery_Botのチャンネルへようこそ！このボットはヘイトレイド保護ボットで、ヘイトレイドを検出してブロックする複数の方法を持っています。詳細、指示、コマンドなどについては、{{carrdLink}}をご覧ください。"
+
+# !adtimer and related
+needsAdAuth: "チャンネルの広告を確認する権限がありません。{{authLink}}にアクセスして修正し、このコマンドを再度実行してください。"
+adTimerEnabled: "広告タイマーが有効になりました"
+adTimerDisabled: "広告タイマーが無効になりました"
+adBreakBegin: "{{duration}}の広告休憩が始まります！この休憩中もご視聴いただきありがとうございます！{{emote}} 広告はコンテンツのサポートに役立ちます。広告を削除してストリームをサポートするために、サブスクライブを検討してください！"
+adBreakEnd: "広告休憩が終了します！{{emote}}"
+noAdMsgProvided: "広告タイマーのメッセージを提供してください。例: {{command}} 広告を削除してこのストリームをサポートするために、サブスクライブを検討してください！"
+adMsgTooLong: "広告メッセージが長すぎます。400文字未満のメッセージを提供してください。"
+adMsgNoSlash: "申し訳ありませんが、広告タイマーには/announceのようなスラッシュコマンドを使用できません。"
+adMsgSet: "カスタム広告タイマーメッセージが追加されました: {{adMsg}}"
+adMsgEndSet: "カスタム広告タイマー終了メッセージが追加されました: {{adMsg}}"
+
+# raid-out
+raidOutMessageCleared: "カスタムレイドアウトメッセージがクリアされました"
+raidOutMessageSet: "カスタムレイドアウトメッセージが追加されました"
+raidOutOn: "レイドアウトアラートが有効になりました"
+raidOutOff: "レイドアウトアラートが無効になりました"
+raidOutMessage: "{{channelFrom}}がレイドを{{channelTo}}に送りました！https://twitch.tv/{{channelToLogin}}で参加して、愛を示してください！{{emote1}} {{emote2}}"
+
+# stream online
+seryBotJoined: "Sery_Botが参加しました"
+seryBotJoinedFirstMsg: "Sery_Botがチャットに参加したときに通知します。今後の通知をオフにするには、!onlinenotifoffと入力してください（このイントロメッセージは一度だけ表示されます）"
+seryBotReauthNeeded: "こんにちは @{{channel}}、Twitchはボットアカウントに変更を導入しています。Sery_Botが期待通りに動作し続けるために、ボットを再認証する必要があります。可能なときに{{authLink}}にアクセスしてください。ありがとうございます！"
+
+# Settings
+onlineNotifOn: "チャンネルにいるときに通知します。"
+onlineNotifOff: "チャンネルにいるときに通知しません。"
+offlineChannelLockOn: "オフラインチャンネルロックが有効になりました"
+offlineChannelLockOff: "オフラインチャンネルロックが無効になりました"
+raffleSystemOn: "ラッフルシステムが有効になりました"
+raffleSystemOff: "ラッフルシステムが無効になりました"
+followBanOn: "フォローボット保護が有効になりました"
+followBanOff: "フォローボット保護が無効になりました"
+
+# Reauth whisper
+# No links because Twitch considers them spam
+reauthWhisper: "こんにちは、これは自動メッセージです。Sery_Botがチャンネルを保護しなくなったことをお知らせします。これは通常、パスワードを変更したときに発生します。ボットを再追加したい場合は、Sery_BotのTwitchページにアクセスしてボットを再度!joinしてください。質問がある場合は、Twitterで@SeryCodesにメッセージを送ってください。ありがとうございます！"
+
+# language
+languageSet: "言語が日本語に設定されました"
+noLanguageProvided: "言語が提供されていません。有効な言語コードを提供してください。有効な言語コードは次のとおりです: {{validLangCodes}}"
+invalidLanguage: "無効な言語コードです。有効な言語コードを提供してください。有効な言語コードは次のとおりです: {{validLangCodes}}"
+
+# spamcheck
+spamcheckOn: "スパムチェックが有効になりました"
+spamcheckOff: "スパムチェックが無効になりました"
+
+# breaktimers
+breakTimerMessageCleared: "休憩タイマーメッセージがクリアされました"
+breakTimerMessageSet: "休憩タイマーメッセージが追加されました"
+breakTimerOff: "休憩タイマーが無効になりました"
+breakTimerSet: "休憩タイマーが{{duration}}分に設定されました"
+breakTimerMessage: "休憩の時間です！ストレッチ、水分補給、目を休める時間を取りましょう{{emote}}"
+breakTimerExamples: "休憩タイマーを分または時間で提供してください。最小は5分です。例: 30m, 1h, 1.5h, 3h"
