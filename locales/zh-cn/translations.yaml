@@ -40,8 +40,8 @@ raidOutMessageSet: "自定义突袭退出消息已添加"
 raidOutOn: "突袭退出提醒已启用"
 raidOutOff: "突袭退出提醒已停用"
 raidOutMessage: "{{channelFrom}} 已将突袭转移到 {{channelTo}}！快来 https://twitch.tv/{{channelToLogin}} 加入我们并送上支持吧！{{emote1}} {{emote2}}"
-# raidSnoozeOn: "Raid snooze enabled - ads will be snoozed when receiving raids"
-# raidSnoozeOff: "Raid snooze disabled"
+raidSnoozeOn: "突袭暂停已启用 - 接收突袭时将暂停广告"
+raidSnoozeOff: "突袭暂停已停用"
 
 # stream online
 seryBotJoined: "Sery_Bot 已到达 {{emote}}"
@@ -68,13 +68,13 @@ noLanguageProvided: "未提供语言。请提供有效的语言代码。有效�
 invalidLanguage: "无效语言代码。请提供有效的语言代码。有效的语言代码包括：{{validLangCodes}}"
 
 # spamcheck
-# spamcheckOn: "Spam checks enabled"
-# spamcheckOff: "Spam checks disabled"
+spamcheckOn: "垃圾消息检查已启用"
+spamcheckOff: "垃圾消息检查已停用"
 
 # breaktimers
-# breakTimerMessageCleared: "Break timer message cleared"
-# breakTimerMessageSet: "Break timer message added"
-# breakTimerOff: "Break timer disabled"
-# breakTimerSet: "Break timer set to {{duration}} minutes"
-# breakTimerMessage: "It's time for a break! Take some time to stretch, hydrate, and rest your eyes {{emote}}"
-# breakTimerExamples: "Please provide a break timer in minutes or hours. The minimum is 5 minutes. Examples: 30m, 1h, 1.5h, 3h"
+breakTimerMessageCleared: "休息计时器消息已清除"
+breakTimerMessageSet: "休息计时器消息已添加"
+breakTimerOff: "休息计时器已停用"
+breakTimerSet: "休息计时器已设置为 {{duration}} 分钟"
+breakTimerMessage: "该休息了！花点时间伸展、补充水分并让眼睛休息一下 {{emote}}"
+breakTimerExamples: "请提供以分钟或小时为单位的休息计时器。最短为 5 分钟。示例：30m、1h、1.5h、3h"

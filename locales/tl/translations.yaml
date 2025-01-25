@@ -28,11 +28,11 @@ adTimerEnabled: "Ang mga timer para sa ads ay naka-on na"
 adTimerDisabled: "Ang mga timer para sa ads ay naka-off na"
 adBreakBegin: "Ang {{duration}} ad break ay nagsimula na! Salamat sa pananatili habang naka-break! {{emote}} Ang mga ads ay nakakatulong para suportahan ang aking content. I-consider na mag-subscribe para tanggalin ang ads at suportahan ang stream!"
 adBreakEnd: "Matatapos na ang ad break! {{emote}}"
-# noAdMsgProvided: "Please provide a message for the ad timer. Example: {{command}} Consider subscribing to remove ads and support this stream!"
-# adMsgTooLong: "The ad message is too long. Please provide a message that is less than 400 characters."
-# adMsgNoSlash: "Sorry, I cannot use slash commands like /announce for ad timers."
-# adMsgSet: "Custom ad timer message added: {{adMsg}}"
-# adMsgEndSet: "Custom ad timer ending message added: {{adMsg}}"
+noAdMsgProvided: "Magbigay ng mensahe para sa ad timer. Halimbawa: {{command}} I-consider na mag-subscribe para tanggalin ang ads at suportahan ang stream!"
+adMsgTooLong: "Masyadong mahaba ang ad message. Magbigay ng mensahe na mas maikli sa 400 characters."
+adMsgNoSlash: "Pasensya, hindi ko magagamit ang mga slash commands tulad ng /announce para sa ad timers."
+adMsgSet: "Na-add na ang custom na ad timer message: {{adMsg}}"
+adMsgEndSet: "Na-add na ang custom na ad timer ending message: {{adMsg}}"
 
 # raid-out
 raidOutMessageCleared: "Na-clear na custom na raid-out message"
@@ -40,8 +40,8 @@ raidOutMessageSet: "Na-add na ang custom na raid-out message"
 raidOutOn: "Ang raid-out alert ay naka-on"
 raidOutOff: "Ang raid-out alert ay naka-off"
 raidOutMessage: "{{channelFrom}} ay nag-send ng raid kay {{channelTo}}! Sumali sa'min sa https://twitch.tv/{{channelToLogin}} at magbigay ng suporta! {{emote1}} {{emote2}}"
-# raidSnoozeOn: "Raid snooze enabled - ads will be snoozed when receiving raids"
-# raidSnoozeOff: "Raid snooze disabled"
+raidSnoozeOn: "Naka-on na ang raid snooze - ang mga ads ay maaantala kapag nakakatanggap ng raid"
+raidSnoozeOff: "Naka-off na ang raid snooze"
 
 # stream online
 seryBotJoined: "Nandito na si Sery_Bot {{emote}}"
@@ -60,21 +60,21 @@ followBanOff: "Proteksyon sa follow bot ay naka-off"
 
 # Reauth whisper
 # No links because Twitch considers them spam
-# reauthWhisper: "Hello, this is an automated message to let you know that Sery_Bot is no longer protecting your channel. This commonly happens when you change your password. If you would like to readd the bot, visit Sery_Bot's Twitch page and !join the bot back. If you have any questions, feel free to message @SeryCodes on Bluesky or Twitter. Thank you!"
+reauthWhisper: "Hello, ito ay automated message para ipaalam sa'yo na hindi na pinoprotektahan ni Sery_Bot ang iyong channel. Ito ay karaniwang nangyayari kapag binago mo ang iyong password. Kung gusto mong i-add muli ang bot, bisitahin ang Twitch page ni Sery_Bot at gamitin ang !join para ibalik ang bot. Kung may mga tanong ka, huwag mag-atubiling mag-message kay @SeryCodes sa Bluesky o Twitter. Salamat!"
 
 # language
 languageSet: "Language set to Tagalog"
-# noLanguageProvided: "No language provided. Please provide a valid language code. Valid language codes are: {{validLangCodes}}"
-# invalidLanguage: "Invalid language code. Please provide a valid language code. Valid language codes are: {{validLangCodes}}"
+noLanguageProvided: "Walang ibinigay na wika. Magbigay ng tamang language code. Ang mga tamang language codes ay: {{validLangCodes}}"
+invalidLanguage: "Hindi tamang language code. Magbigay ng tamang language code. Ang mga tamang language codes ay: {{validLangCodes}}"
 
 # spamcheck
-# spamcheckOn: "Spam checks enabled"
-# spamcheckOff: "Spam checks disabled"
+spamcheckOn: "Naka-on na ang spam checks"
+spamcheckOff: "Naka-off na ang spam checks"
 
 # breaktimers
-# breakTimerMessageCleared: "Break timer message cleared"
-# breakTimerMessageSet: "Break timer message added"
-# breakTimerOff: "Break timer disabled"
-# breakTimerSet: "Break timer set to {{duration}} minutes"
-# breakTimerMessage: "It's time for a break! Take some time to stretch, hydrate, and rest your eyes {{emote}}"
-# breakTimerExamples: "Please provide a break timer in minutes or hours. The minimum is 5 minutes. Examples: 30m, 1h, 1.5h, 3h"
+breakTimerMessageCleared: "Na-clear na ang break timer message"
+breakTimerMessageSet: "Na-add na ang break timer message"
+breakTimerOff: "Naka-off na ang break timer"
+breakTimerSet: "Ang break timer ay naka-set sa {{duration}} minuto"
+breakTimerMessage: "Oras na para mag-break! Mag-stretch, uminom ng tubig, at magpahinga ang mga mata {{emote}}"
+breakTimerExamples: "Magbigay ng break timer sa minuto o oras. Ang minimum ay 5 minuto. Mga halimbawa: 30m, 1h, 1.5h, 3h"
