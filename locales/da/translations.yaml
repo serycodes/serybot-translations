@@ -60,7 +60,7 @@ followBanOff: "Følger bot beskyttelse deaktiveret"
 
 # Reauth whisper
 # No links because Twitch considers them spam
-reauthWhisper: "Hej, dette er en automatiseret meddelelse for at informere dig om at Sery_Bot ikke længere beskytter din kanal. Dette vil ofte ske hvis du ændre dit kodeord. Hvis du ønsker at genaktivere boten, besøge Sery_Bots Twitch side og brug kommandoen !join for at få boten tilbage. Hvis du har spørgsmål er du velkommen til at sende en besked til @SeryCodes på Twitter, Tak."
+reauthWhisper: "Hej, dette er en automatiseret meddelelse for at informere dig om at Sery_Bot ikke længere beskytter din kanal. Dette vil ofte ske hvis du ændre dit kodeord. Hvis du ønsker at genaktivere boten, besøge Sery_Bots Twitch side og brug kommandoen !join for at få boten tilbage. Hvis du har spørgsmål er du velkommen til at sende en besked til @SeryCodes på Bluesky eller Twitter, Tak."
 
 # language
 languageSet: "Sprog sat til Dansk"

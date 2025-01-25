@@ -60,7 +60,7 @@ followBanOff: "フォローボット保護が無効になりました"
 
 # Reauth whisper
 # No links because Twitch considers them spam
-reauthWhisper: "こんにちは、これは自動メッセージです。Sery_Botがチャンネルを保護しなくなったことをお知らせします。これは通常、パスワードを変更したときに発生します。ボットを再追加したい場合は、Sery_BotのTwitchページにアクセスしてボットを再度!joinしてください。質問がある場合は、Twitterで@SeryCodesにメッセージを送ってください。ありがとうございます！"
+reauthWhisper: "こんにちは、これは自動メッセージです。Sery_Botがチャンネルを保護しなくなったことをお知らせします。これは通常、パスワードを変更したときに発生します。ボットを再追加したい場合は、Sery_BotのTwitchページにアクセスしてボットを再度!joinしてください。質問がある場合は、BlueskyまたはTwitterで@SeryCodesにメッセージを送ってください。ありがとうございます！"
 
 # language
 languageSet: "言語が日本語に設定されました"

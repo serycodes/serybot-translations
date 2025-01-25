@@ -60,7 +60,7 @@ followBanOff: "Protección contra los ataques de seguidores falsos (bots) desact
 
 # Reauth whisper
 # No links because Twitch considers them spam
-reauthWhisper: "Hola, este es un mensaje automatico para hacerte saber que Sery_Bot ya no está protegiendo tu canal. Esto normalmente occure cuando cambias tu contraseña. Si te gustaría reañadir al bot, visita en canal de Twitch de Sery_Bot y utiliza el comando !join. Si tienes alguna duda, por favor contacta a @SeryCodes en Twitter. ¡Gracias!"
+reauthWhisper: "Hola, este es un mensaje automatico para hacerte saber que Sery_Bot ya no está protegiendo tu canal. Esto normalmente occure cuando cambias tu contraseña. Si te gustaría reañadir al bot, visita en canal de Twitch de Sery_Bot y utiliza el comando !join. Si tienes alguna duda, por favor contacta a @SeryCodes en Bluesky o Twitter. ¡Gracias!"
 
 # language
 languageSet: "Idioma configurado al español"

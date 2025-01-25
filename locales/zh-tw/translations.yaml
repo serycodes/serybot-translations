@@ -60,7 +60,7 @@ followBanOff: "關注機器人保護已停用"
 
 # Reauth whisper
 # No links because Twitch considers them spam
-reauthWhisper: "你好，這是自動訊息，通知您 Sery_Bot 不再保護您的頻道。這通常發生在您更改密碼時。如果您想重新新增機器人，請造訪 Sery_Bot 的 Twitch 頁面並使用 !join 將機器人重新加入。如果您有任何問題，請隨時在推特（Twitter）上聯絡 @SeryCodes。謝謝！"
+reauthWhisper: "你好，這是自動訊息，通知您 Sery_Bot 不再保護您的頻道。這通常發生在您更改密碼時。如果您想重新新增機器人，請造訪 Sery_Bot 的 Twitch 頁面並使用 !join 將機器人重新加入。如果您有任何問題，請隨時在 Bluesky 或推特（Twitter）上聯絡 @SeryCodes。謝謝！"
 
 # language
 languageSet: "語言已設定為繁體中文"

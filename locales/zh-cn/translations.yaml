@@ -60,7 +60,7 @@ followBanOff: "关注机器人保护已停用"
 
 # Reauth whisper
 # No links because Twitch considers them spam
-reauthWhisper: "你好，这是自动消息，通知您 Sery_Bot 不再保护您的频道。这通常发生在您更改密码时。如果您想重新添加机器人，请访问 Sery_Bot 的 Twitch 页面并使用 !join 将机器人重新加入。如果您有任何问题，请随时在推特（Twitter）上联系 @SeryCodes。谢谢！"
+reauthWhisper: "你好，这是自动消息，通知您 Sery_Bot 不再保护您的频道。这通常发生在您更改密码时。如果您想重新添加机器人，请访问 Sery_Bot 的 Twitch 页面并使用 !join 将机器人重新加入。如果您有任何问题，请随时在 Bluesky 或推特（Twitter）上联系 @SeryCodes。谢谢！"
 
 # language
 languageSet: "语言已设置为简体中文"
