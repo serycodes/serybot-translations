@@ -40,13 +40,13 @@ raidOutMessageSet: "カスタムレイドアウトメッセージが追加され
 raidOutOn: "レイドアウトアラートが有効になりました"
 raidOutOff: "レイドアウトアラートが無効になりました"
 raidOutMessage: "{{channelFrom}}がレイドを{{channelTo}}に送りました！https://twitch.tv/{{channelToLogin}}で参加して、愛を示してください！{{emote1}} {{emote2}}"
-# raidSnoozeOn: "Raid snooze enabled - ads will be snoozed when receiving raids"
-# raidSnoozeOff: "Raid snooze disabled"
+raidSnoozeOn: "レイドスヌーズが有効になりました - レイド受信時に広告が一時停止されます"
+raidSnoozeOff: "レイドスヌーズが無効になりました"
 
 # stream online
-seryBotJoined: "Sery_Botが参加しました"
-seryBotJoinedFirstMsg: "Sery_Botがチャットに参加したときに通知します。今後の通知をオフにするには、!onlinenotifoffと入力してください（このイントロメッセージは一度だけ表示されます）"
-seryBotReauthNeeded: "こんにちは @{{channel}}、Twitchはボットアカウントに変更を導入しています。Sery_Botが期待通りに動作し続けるために、ボットを再認証する必要があります。可能なときに{{authLink}}にアクセスしてください。ありがとうございます！"
+seryBotJoined: "Sery_Botが参加しました {{emote}}"
+seryBotJoinedFirstMsg: "Sery_Botはあなたのチャンネルが配信を開始したときに通知します。今後の通知をオフにするには、!onlinenotifoffと入力してください（このイントロメッセージは一度だけ表示されます）"
+seryBotReauthNeeded: "⚠️ @{{channel}}さん、接続が古くなっています。可能な時に{{authLink}}にアクセスしてください。ありがとうございます！"
 
 # Settings
 onlineNotifOn: "チャンネルにいるときに通知します。"

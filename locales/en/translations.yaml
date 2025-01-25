@@ -44,9 +44,9 @@ raidSnoozeOn: "Raid snooze enabled - ads will be snoozed when receiving raids"
 raidSnoozeOff: "Raid snooze disabled"
 
 # stream online
-seryBotJoined: "Sery_Bot has joined"
-seryBotJoinedFirstMsg: "Sery_Bot will now notify you when it's joined your chat. To turn off these future notifications, type in !onlinenotifoff (this intro message will only display once)"
-seryBotReauthNeeded: "Hi @{{channel}}, Twitch is introducing changes to bot accounts. To ensure Sery_Bot continues to work as expected, you'll have to reauth the bot. Please visit {{authLink}} when you are able. Thank you!"
+seryBotJoined: "Sery_Bot is here {{emote}}"
+seryBotJoinedFirstMsg: "Sery_Bot will now notify you when your channel is live. To turn off these future notifications, type in !onlinenotifoff (this intro message will only display once)"
+seryBotReauthNeeded: "⚠️ Hi @{{channel}}, your connection is out of date. Please visit {{authLink}} when you are able. Thank you!"
 
 # Settings
 onlineNotifOn: "I will notify you when I am in your channel."

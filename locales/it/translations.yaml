@@ -44,9 +44,9 @@ raidOutMessage: "{{channelFrom}} ha fatto il raid a {{channelTo}}! Unisciti a  h
 # raidSnoozeOff: "Raid snooze disabled"
 
 # stream online
-seryBotJoined: "Sery_Bot si è unito"
-seryBotJoinedFirstMsg: "D'ora in poi Sery_Bot ti manderà una notifica quando si unirà al tuo canale. Per disabilitare queste notifiche, digita !onlinenotifoff (questo messaggio di introduzione verrà scritto una sola volta)"
-seryBotReauthNeeded: "Hey @{{channel}}, Twitch sta introducendo dei cambiamenti per gli account bot. Per assicurarsi che Sery_Bot continui a funzionare come al solito, dovrai autorizzare nuovamente il bot. Per favore visita {{authLink}} quando hai tempo. Grazie!"
+seryBotJoined: "Sery_Bot è qui {{emote}}"
+seryBotJoinedFirstMsg: "Sery_Bot ti notificherà quando il tuo canale è in diretta. Per disattivare queste notifiche future, digita !onlinenotifoff (questo messaggio di introduzione verrà mostrato una sola volta)"
+seryBotReauthNeeded: "⚠️ Ciao @{{channel}}, la tua connessione non è aggiornata. Per favore visita {{authLink}} quando puoi. Grazie!"
 
 # Settings
 onlineNotifOn: "Ti invierò un messaggio quando sono nel tuo canale."

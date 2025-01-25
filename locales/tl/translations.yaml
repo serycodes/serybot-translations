@@ -44,9 +44,9 @@ raidOutMessage: "{{channelFrom}} ay nag-send ng raid kay {{channelTo}}! Sumali s
 # raidSnoozeOff: "Raid snooze disabled"
 
 # stream online
-seryBotJoined: "Si Sery_Bot ay nandito na"
-seryBotJoinedFirstMsg: "Si Sery_Bot ay magpapa-alala sa'yo tuwing ito'y nakasali na sa iyong chat. Upang tanggalin ang notifications na ito sa hinaharap, i-type ang !onlinenotifoff (itong intro message na ito ay magdi-display lang ng isang beses)"
-seryBotReauthNeeded: "Hi @{{channel}}, si Twitch ay magi-introduce ng mga pagbabago sa bot accounts. Para siguraduhing ginagawa ni Sery_Bot ang trabaho niya, kailangan mong pahintulutan muli ang bot. Gawing puntahan ang {{authLink}} kung kailan mo kaya. Thank you!"
+seryBotJoined: "Nandito na si Sery_Bot {{emote}}"
+seryBotJoinedFirstMsg: "Aabisuhan ka ni Sery_Bot kapag live ang iyong channel. Para i-off ang mga notifications sa hinaharap, i-type ang !onlinenotifoff (ang intro message na ito ay isang beses lang ipapakita)"
+seryBotReauthNeeded: "⚠️ Hi @{{channel}}, ang iyong koneksyon ay luma na. Pakibisita ang {{authLink}} kapag may pagkakataon ka. Salamat!"
 
 # Settings
 onlineNotifOn: "Sasabihan kita kapag ako'y nasa iyong channel."

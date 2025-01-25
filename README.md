@@ -16,7 +16,7 @@ If you would like to contribute to the translations, please follow these steps:
 
 These are Twitch's supported language codes, best I can tell...
 
-Twitch uses [ISO 639 language codes](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes). 
+Twitch uses [ISO 639 language codes](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes).
 
 Huge shoutout to everyone who has contributed to the translations!
 

@@ -20,7 +20,7 @@ rejoinFollowBanDisabled: "Hiv du ønsker følger bot beskyttelse så brug komman
 leaveChannel: "Jeg har forladt din kanal"
 
 # !info
-info: "Velkom til Sery_bots kanal! Denne bot er en had angreb beskyttelse bot som har flere måder at opdage og blokkere had angreb. For detaljer, instruktioner, kommandoer og mere, andbefaler jeg at du studere {{carrdLink}}"
+info: "Velkom til Sery_Bots kanal! Denne bot er en had angreb beskyttelse bot som har flere måder at opdage og blokkere had angreb. For detaljer, instruktioner, kommandoer og mere, andbefaler jeg at du studere {{carrdLink}}"
 
 # !adtimer and related
 needsAdAuth: "Jeg har ikke tilladelse til at tjekke for reklamer i din kanal. Venligst besøg {{authLink}} for at rette dette, gentag så denne kommando."
@@ -44,9 +44,9 @@ raidOutMessage: "{{channelFrom}} har startet et raid af {{channelTo}}! Mød op m
 # raidSnoozeOff: "Raid snooze disabled"
 
 # stream online
-seryBotJoined: "Sery_bot er ankommet"
-seryBotJoinedFirstMsg: "Sery_bot vil nu annoncere når den ankommer i din chat. For at slukke for disse fremtidige notofikation, indtast !onlinenotifoff (denne introduktion meddelelse vil kun blive vist en gang)"
-seryBotReauthNeeded: "Hej @{{channel}}, Twitch introducere ændringer til bot kontoer. For at sikre at Sery_Bot virker som forventet, er du nødt til at genautorisere botte. Besøg venligst denne side {{authLink}} når du har mulighed for det, Tak"
+seryBotJoined: "Sery_Bot er her {{emote}}"
+seryBotJoinedFirstMsg: "Sery_Bot vil nu annoncere når din kanal er live. For at slukke for disse fremtidige notofikation, indtast !onlinenotifoff (denne introduktion meddelelse vil kun blive vist en gang)"
+seryBotReauthNeeded: "⚠️ Hej @{{channel}}, din forbindelse er forældet. Besøg venligst {{authLink}} når du har mulighed for det, Tak."
 
 # Settings
 onlineNotifOn: "Jeg vil notificere dig når jeg er i din kanal"
@@ -60,7 +60,7 @@ followBanOff: "Følger bot beskyttelse deaktiveret"
 
 # Reauth whisper
 # No links because Twitch considers them spam
-reauthWhisper: "Hej, dette er en automatiseret meddelelse for at informere dig om at Sery_Bot ikke længere beskytter din kanal. Dette vil ofte ske hvis du ændre dit kodeord. Hvis du ønsker at genaktivere boten, besøge Sery_bots Twitch side og brug kommandoen !join for at få boten tilbage. Hvis du har spørgsmål er du velkommen til at sende en besked til @SeryCodes på Twitter, Tak."
+reauthWhisper: "Hej, dette er en automatiseret meddelelse for at informere dig om at Sery_Bot ikke længere beskytter din kanal. Dette vil ofte ske hvis du ændre dit kodeord. Hvis du ønsker at genaktivere boten, besøge Sery_Bots Twitch side og brug kommandoen !join for at få boten tilbage. Hvis du har spørgsmål er du velkommen til at sende en besked til @SeryCodes på Twitter, Tak."
 
 # language
 languageSet: "Sprog sat til Dansk"

@@ -44,9 +44,9 @@ raidOutMessage: "{{channelFrom}} 已將突襲轉移到 {{channelTo}}！快來 ht
 # raidSnoozeOff: "Raid snooze disabled"
 
 # stream online
-seryBotJoined: "Sery_Bot 已加入"
-seryBotJoinedFirstMsg: "Sery_Bot 現在會在加入您的聊天時通知您。若要關閉這些未來的通知，請輸入 !onlinenotifoff（此介紹訊息只會顯示一次）"
-seryBotReauthNeeded: "嗨 @{{channel}}，Twitch 正在對機器人帳戶進行更改。為了確保 Sery_Bot 繼續正常運作，您需要重新授權機器人。請在方便時造訪 {{authLink}}。謝謝！"
+seryBotJoined: "Sery_Bot 已到達 {{emote}}"
+seryBotJoinedFirstMsg: "Sery_Bot 現在會在您的頻道開播時通知您。要關閉這些未來的通知，請輸入 !onlinenotifoff（此介紹訊息僅會顯示一次）"
+seryBotReauthNeeded: "⚠️ @{{channel}}，您的連接需要更新。請在方便時訪問 {{authLink}}。謝謝！"
 
 # Settings
 onlineNotifOn: "我會在我進入您的頻道時通知您。"
