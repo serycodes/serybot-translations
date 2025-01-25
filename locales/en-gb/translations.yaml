@@ -40,6 +40,8 @@ raidOutMessageSet: "Custom raid-out message added"
 raidOutOn: "Raid-out alert enabled"
 raidOutOff: "Raid-out alert disabled"
 raidOutMessage: "{{channelFrom}} has sent the raid over to {{channelTo}}! Join us over at https://twitch.tv/{{channelToLogin}} and show some love! {{emote1}} {{emote2}}"
+raidSnoozeOn: "Raid snooze enabled - ads will be snoozed when receiving raids"
+raidSnoozeOff: "Raid snooze disabled"
 
 # stream online
 seryBotJoined: "Sery_Bot has joined"
@@ -61,6 +63,18 @@ followBanOff: "Follow bot protection disabled"
 reauthWhisper: "Hello, this is an automated message to let you know that Sery_Bot is no longer protecting your channel. This commonly happens when you change your password. If you would like to readd the bot, visit Sery_Bot's Twitch page and !join the bot back. If you have any questions, feel free to message @SeryCodes on Twitter. Thank you!"
 
 # language
-languageSet: "Language set to English"
+languageSet: "Language set to English-GB"
 noLanguageProvided: "No language provided. Please provide a valid language code. Valid language codes are: {{validLangCodes}}"
 invalidLanguage: "Invalid language code. Please provide a valid language code. Valid language codes are: {{validLangCodes}}"
+
+# spamcheck
+spamcheckOn: "Spam checks enabled"
+spamcheckOff: "Spam checks disabled"
+
+# breaktimers
+breakTimerMessageCleared: "Break timer message cleared"
+breakTimerMessageSet: "Break timer message added"
+breakTimerOff: "Break timer disabled"
+breakTimerSet: "Break timer set to {{duration}} minutes"
+breakTimerMessage: "It's time for a break! Take some time to stretch, hydrate, and rest your eyes {{emote}}"
+breakTimerExamples: "Please provide a break timer in minutes or hours. The minimum is 5 minutes. Examples: 30m, 1h, 1.5h, 3h"

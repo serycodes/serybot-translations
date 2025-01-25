@@ -40,6 +40,8 @@ raidOutMessageSet: "Benutzerdefinierte Nachricht für ausgehende Raids hinzugef�
 raidOutOn: "Alarm für ausgehende Raids aktiviert"
 raidOutOff: "Alarm für ausgehende Raids deaktiviert"
 raidOutMessage: "{{channelFrom}} hat den Raid zu {{channelTo}} geschickt! Begleite uns auf https://twitch.tv/{{channelToLogin}} und zeige etwas Liebe! {{emote1}} {{emote2}}"
+# raidSnoozeOn: "Raid snooze enabled - ads will be snoozed when receiving raids"
+# raidSnoozeOff: "Raid snooze disabled"
 
 # stream online
 seryBotJoined: "Sery_Bot ist beigetreten"
@@ -64,3 +66,15 @@ reauthWhisper: "Hallo, dies ist eine automatische Nachricht, um dich zu informie
 languageSet: "Sprache zu Deutsch geändert"
 noLanguageProvided: "Keine Sprache ausgewählt. Bitte ein valides Sprachkürzel auswählen. Diese sind: {{validLangCodes}}"
 invalidLanguage: "Ungültiges Sprachkürzel. Bitte ein valides Sprachkürzel auswählen. Diese sind: {{validLangCodes}}"
+
+# spamcheck
+# spamcheckOn: "Spam checks enabled"
+# spamcheckOff: "Spam checks disabled"
+
+# breaktimers
+# breakTimerMessageCleared: "Break timer message cleared"
+# breakTimerMessageSet: "Break timer message added"
+# breakTimerOff: "Break timer disabled"
+# breakTimerSet: "Break timer set to {{duration}} minutes"
+# breakTimerMessage: "It's time for a break! Take some time to stretch, hydrate, and rest your eyes {{emote}}"
+# breakTimerExamples: "Please provide a break timer in minutes or hours. The minimum is 5 minutes. Examples: 30m, 1h, 1.5h, 3h"

@@ -40,6 +40,8 @@ raidOutMessageSet: "自訂突襲退出訊息已添加"
 raidOutOn: "突襲退出提醒已啟用"
 raidOutOff: "突襲退出提醒已停用"
 raidOutMessage: "{{channelFrom}} 已將突襲轉移到 {{channelTo}}！快來 https://twitch.tv/{{channelToLogin}} 加入我們並送上支援吧！ {{emote1}} {{emote2}}"
+# raidSnoozeOn: "Raid snooze enabled - ads will be snoozed when receiving raids"
+# raidSnoozeOff: "Raid snooze disabled"
 
 # stream online
 seryBotJoined: "Sery_Bot 已加入"
@@ -64,3 +66,15 @@ reauthWhisper: "你好，這是自動訊息，通知您 Sery_Bot 不再保護您
 languageSet: "語言已設定為繁體中文"
 noLanguageProvided: "未提供語言。請提供有效的語言代碼。有效的語言代碼包括：{{validLangCodes}}"
 invalidLanguage: "無效語言代碼。請提供有效的語言代碼。有效的語言代碼包括：{{validLangCodes}}"
+
+# spamcheck
+# spamcheckOn: "Spam checks enabled"
+# spamcheckOff: "Spam checks disabled"
+
+# breaktimers
+# breakTimerMessageCleared: "Break timer message cleared"
+# breakTimerMessageSet: "Break timer message added"
+# breakTimerOff: "Break timer disabled"
+# breakTimerSet: "Break timer set to {{duration}} minutes"
+# breakTimerMessage: "It's time for a break! Take some time to stretch, hydrate, and rest your eyes {{emote}}"
+# breakTimerExamples: "Please provide a break timer in minutes or hours. The minimum is 5 minutes. Examples: 30m, 1h, 1.5h, 3h"

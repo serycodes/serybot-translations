@@ -23,7 +23,7 @@ leaveChannel: "Jeg har forladt din kanal"
 info: "Velkom til Sery_bots kanal! Denne bot er en had angreb beskyttelse bot som har flere måder at opdage og blokkere had angreb. For detaljer, instruktioner, kommandoer og mere, andbefaler jeg at du studere {{carrdLink}}"
 
 # !adtimer and related
-needsAdAuth: "Jeg har ikke tilladelse til at tjekke for reklamer i din kanal. Venligst besøg (dit link) for at rette dette, gentag så denne kommando."
+needsAdAuth: "Jeg har ikke tilladelse til at tjekke for reklamer i din kanal. Venligst besøg {{authLink}} for at rette dette, gentag så denne kommando."
 adTimerEnabled: "Reklame timere aktiveret"
 adTimerDisabled: "Reklame timere deaktiveret"
 adBreakBegin: "En {{duration}} reklamepause starter! Tak fordi du bliver hængende {{emote}} Reklamer hjælper med at støtte min kanal. Overvej at abonnere for at undgå reklamer og støtte kanalen!"
@@ -40,6 +40,8 @@ raidOutMessageSet: "Personlig raid-ud meddelelse tilføjet"
 raidOutOn: "Raid-ud advarsel aktiveret"
 raidOutOff: "Raid-ud advarsel deaktiveret"
 raidOutMessage: "{{channelFrom}} har startet et raid af {{channelTo}}! Mød op med os hos https://twitch.tv/{{channelToLogin}} og vise noget støtte og kærlighed {{emote1}} {{emote2}}"
+# raidSnoozeOn: "Raid snooze enabled - ads will be snoozed when receiving raids"
+# raidSnoozeOff: "Raid snooze disabled"
 
 # stream online
 seryBotJoined: "Sery_bot er ankommet"
@@ -64,3 +66,15 @@ reauthWhisper: "Hej, dette er en automatiseret meddelelse for at informere dig o
 languageSet: "Sprog sat til Dansk"
 noLanguageProvided: "Intet sprog til rådighed. Venligst angiv en gyldig sprogkode. Gyldige sprogkoder er: {{validLangCodes}}"
 invalidLanguage: "Ugyldig sprogkode. Venligst angiv gyldig sprogkode. Gyldige sprogkoder er: {{validLangCodes}}"
+
+# spamcheck
+# spamcheckOn: "Spam checks enabled"
+# spamcheckOff: "Spam checks disabled"
+
+# breaktimers
+# breakTimerMessageCleared: "Break timer message cleared"
+# breakTimerMessageSet: "Break timer message added"
+# breakTimerOff: "Break timer disabled"
+# breakTimerSet: "Break timer set to {{duration}} minutes"
+# breakTimerMessage: "It's time for a break! Take some time to stretch, hydrate, and rest your eyes {{emote}}"
+# breakTimerExamples: "Please provide a break timer in minutes or hours. The minimum is 5 minutes. Examples: 30m, 1h, 1.5h, 3h"

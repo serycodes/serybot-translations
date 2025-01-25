@@ -28,11 +28,11 @@ adTimerEnabled: "Temporizadores de anuncios activos."
 adTimerDisabled: "Temporizadores de anuncios inactivos."
 adBreakBegin: "¡Una pausa publicitaria que dura {{duration}} ha comenzado! ¡Gracias por quedarte en el canal durante este descanso! {{emote}} Los anuncios me ayudan a seguir proveyendo mi contenido. ¡Considera suscribirte para eliminar los anuncios y apoyar al directo!"
 adBreakEnd: "¡La pausa publicitaria está llegando a su fin! {{emote}}"
-noAdMsgProvided: "Please provide a message for the ad timer. Example: {{command}} Consider subscribing to remove ads and support this stream!"
-adMsgTooLong: "The ad message is too long. Please provide a message that is less than 400 characters."
-adMsgNoSlash: "Sorry, I cannot use slash commands like /announce for ad timers."
-adMsgSet: "Custom ad timer message added: {{adMsg}}"
-adMsgEndSet: "Custom ad timer ending message added: {{adMsg}}"
+# noAdMsgProvided: "Please provide a message for the ad timer. Example: {{command}} Consider subscribing to remove ads and support this stream!"
+# adMsgTooLong: "The ad message is too long. Please provide a message that is less than 400 characters."
+# adMsgNoSlash: "Sorry, I cannot use slash commands like /announce for ad timers."
+# adMsgSet: "Custom ad timer message added: {{adMsg}}"
+# adMsgEndSet: "Custom ad timer ending message added: {{adMsg}}"
 
 # raid-out
 raidOutMessageCleared: "Mensaje personalizado de raid saliente reiniciado."
@@ -40,6 +40,8 @@ raidOutMessageSet: "Mensaje personalizado de raid saliente añadido."
 raidOutOn: "Alerta de raid saliente activa."
 raidOutOff: "Alerta de raid saliente inactiva."
 raidOutMessage: "¡{{channelFrom}} ha enviado una raid a {{channelTo}}! ¡Únete a nosotros en https://twitch.tv/{{channelToLogin}} y muestra tu amor! {{emote1}} {{emote2}}"
+# raidSnoozeOn: "Raid snooze enabled - ads will be snoozed when receiving raids"
+# raidSnoozeOff: "Raid snooze disabled"
 
 # stream online
 seryBotJoined: "Sery_Bot se ha unido a tu canal."
@@ -58,9 +60,21 @@ followBanOff: "Protección contra los ataques de seguidores falsos (bots) inacti
 
 # Reauth whisper
 # No links because Twitch considers them spam
-reauthWhisper: "Hello, this is an automated message to let you know that Sery_Bot is no longer protecting your channel. This commonly happens when you change your password. If you would like to readd the bot, visit Sery_Bot's Twitch page and !join the bot back. If you have any questions, feel free to message @SeryCodes on Twitter. Thank you!"
+# reauthWhisper: "Hello, this is an automated message to let you know that Sery_Bot is no longer protecting your channel. This commonly happens when you change your password. If you would like to readd the bot, visit Sery_Bot's Twitch page and !join the bot back. If you have any questions, feel free to message @SeryCodes on Twitter. Thank you!"
 
 # language
 languageSet: "Language set to Spanish"
-noLanguageProvided: "No language provided. Please provide a valid language code. Valid language codes are: {{validLangCodes}}"
-invalidLanguage: "Invalid language code. Please provide a valid language code. Valid language codes are: {{validLangCodes}}"
+# noLanguageProvided: "No language provided. Please provide a valid language code. Valid language codes are: {{validLangCodes}}"
+# invalidLanguage: "Invalid language code. Please provide a valid language code. Valid language codes are: {{validLangCodes}}"
+
+# spamcheck
+# spamcheckOn: "Spam checks enabled"
+# spamcheckOff: "Spam checks disabled"
+
+# breaktimers
+# breakTimerMessageCleared: "Break timer message cleared"
+# breakTimerMessageSet: "Break timer message added"
+# breakTimerOff: "Break timer disabled"
+# breakTimerSet: "Break timer set to {{duration}} minutes"
+# breakTimerMessage: "It's time for a break! Take some time to stretch, hydrate, and rest your eyes {{emote}}"
+# breakTimerExamples: "Please provide a break timer in minutes or hours. The minimum is 5 minutes. Examples: 30m, 1h, 1.5h, 3h"

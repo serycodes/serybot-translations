@@ -40,6 +40,8 @@ raidOutMessageSet: "Custom raid-out message added"
 raidOutOn: "Raid-out alert enabled"
 raidOutOff: "Raid-out alert disabled"
 raidOutMessage: "{{channelFrom}} has sent the raid over to {{channelTo}}! Join us over at https://twitch.tv/{{channelToLogin}} and show some love! {{emote1}} {{emote2}}"
+raidSnoozeOn: "Raid snooze enabled - ads will be snoozed when receiving raids"
+raidSnoozeOff: "Raid snooze disabled"
 
 # stream online
 seryBotJoined: "Sery_Bot has joined"

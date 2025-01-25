@@ -40,6 +40,8 @@ raidOutMessageSet: "カスタムレイドアウトメッセージが追加され
 raidOutOn: "レイドアウトアラートが有効になりました"
 raidOutOff: "レイドアウトアラートが無効になりました"
 raidOutMessage: "{{channelFrom}}がレイドを{{channelTo}}に送りました！https://twitch.tv/{{channelToLogin}}で参加して、愛を示してください！{{emote1}} {{emote2}}"
+# raidSnoozeOn: "Raid snooze enabled - ads will be snoozed when receiving raids"
+# raidSnoozeOff: "Raid snooze disabled"
 
 # stream online
 seryBotJoined: "Sery_Botが参加しました"
