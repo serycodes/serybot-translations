@@ -28,11 +28,11 @@ adTimerEnabled: "Temporizadores de anuncios activados."
 adTimerDisabled: "Temporizadores de anuncios desactivados."
 adBreakBegin: "¡Una pausa publicitaria que dura {{duration}} ha comenzado! ¡Gracias por quedarte en el canal durante este descanso! {{emote}} Los anuncios me ayudan a seguir creando contenido. ¡Considera suscribirte para no ver anuncios y apoyar al directo!"
 adBreakEnd: "¡La pausa publicitaria está terminado! {{emote}}"
-# noAdMsgProvided: "Please provide a message for the ad timer. Example: {{command}} Consider subscribing to remove ads and support this stream!"
-# adMsgTooLong: "The ad message is too long. Please provide a message that is less than 400 characters."
-# adMsgNoSlash: "Sorry, I cannot use slash commands like /announce for ad timers."
-# adMsgSet: "Custom ad timer message added: {{adMsg}}"
-# adMsgEndSet: "Custom ad timer ending message added: {{adMsg}}"
+noAdMsgProvided: "Por favor, proporciona un mensaje para el temporizador de anuncios. Ejemplo: {{command}} ¡Considera suscribirte para no ver anuncios y apoyar al directo!"
+adMsgTooLong: "El mensaje de anuncios es demasiado largo. Por favor, proporciona un mensaje que tenga menos de 400 caracteres."
+adMsgNoSlash: "Lo siento, no puedo usar comandos con barra diagonal como /announce para los temporizadores de anuncios."
+adMsgSet: "Mensaje personalizado de temporizador de anuncios añadido: {{adMsg}}"
+adMsgEndSet: "Mensaje personalizado de finalización de anuncios añadido: {{adMsg}}"
 
 # raid-out
 raidOutMessageCleared: "Mensaje personalizado de raid saliente reiniciado."
@@ -40,8 +40,8 @@ raidOutMessageSet: "Mensaje personalizado de raid saliente añadido."
 raidOutOn: "Alerta de raid saliente activada."
 raidOutOff: "Alerta de raid saliente desactivada."
 raidOutMessage: "¡{{channelFrom}} ha enviado una raid a {{channelTo}}! ¡Únete a nosotros en https://twitch.tv/{{channelToLogin}} y muestra tu amor! {{emote1}} {{emote2}}"
-# raidSnoozeOn: "Raid snooze enabled - ads will be snoozed when receiving raids"
-# raidSnoozeOff: "Raid snooze disabled"
+raidSnoozeOn: "Pausa de anuncios por raid activada - los anuncios se pausarán al recibir raids"
+raidSnoozeOff: "Pausa de anuncios por raid desactivada"
 
 # stream online
 seryBotJoined: "Sery_Bot está aquí {{emote}}"
@@ -60,21 +60,21 @@ followBanOff: "Protección contra los ataques de seguidores falsos (bots) desact
 
 # Reauth whisper
 # No links because Twitch considers them spam
-reauthWhisper: "Hola, este es un mensaje automatico para hacerte saber que Sery_Bot ya no está protegiendo tu canal. Esto normalmente occure cuando cambias tu contraseña. Si te gustaría reañadir al bot, visita en canal de Twitch de Sery_Bot y utiliza el comando !join. Si tienes alguna duda, por favor contacta a @SeryCodes en Bluesky o Twitter. ¡Gracias!"
+reauthWhisper: "Hola, este es un mensaje automático para hacerte saber que Sery_Bot ya no está protegiendo tu canal. Esto normalmente ocurre cuando cambias tu contraseña. Si te gustaría reañadir al bot, visita en canal de Twitch de Sery_Bot y utiliza el comando !join. Si tienes alguna duda, por favor contacta a @SeryCodes en Bluesky o Twitter. ¡Gracias!"
 
 # language
 languageSet: "Idioma configurado al español"
-noLanguageProvided: "Idioma no indicado. Escribe un codigo de idioma valido. Los codigos validos de idioma son: {{validLangCodes}}"
-invalidLanguage: "Codigo de idioma invalido. Escribe un codigo de idioma valido. Los codigos validos de idioma son: {{validLangCodes}}"
+noLanguageProvided: "Idioma no indicado. Escribe un código de idioma válido. Los códigos válidos de idioma son: {{validLangCodes}}"
+invalidLanguage: "Código de idioma inválido. Escribe un código de idioma válido. Los códigos válidos de idioma son: {{validLangCodes}}"
 
 # spamcheck
-# spamcheckOn: "Spam checks enabled"
-# spamcheckOff: "Spam checks disabled"
+spamcheckOn: "Verificación de spam activada"
+spamcheckOff: "Verificación de spam desactivada"
 
 # breaktimers
-# breakTimerMessageCleared: "Break timer message cleared"
-# breakTimerMessageSet: "Break timer message added"
-# breakTimerOff: "Break timer disabled"
-# breakTimerSet: "Break timer set to {{duration}} minutes"
-# breakTimerMessage: "It's time for a break! Take some time to stretch, hydrate, and rest your eyes {{emote}}"
-# breakTimerExamples: "Please provide a break timer in minutes or hours. The minimum is 5 minutes. Examples: 30m, 1h, 1.5h, 3h"
+breakTimerMessageCleared: "Mensaje del temporizador de descanso reiniciado"
+breakTimerMessageSet: "Mensaje del temporizador de descanso añadido"
+breakTimerOff: "Temporizador de descanso desactivado"
+breakTimerSet: "Temporizador de descanso configurado a {{duration}} minutos"
+breakTimerMessage: "¡Es hora de un descanso! Tómate un momento para estirarte, hidratarte y descansar tus ojos {{emote}}"
+breakTimerExamples: "Por favor, proporciona un temporizador de descanso en minutos u horas. El mínimo es de 5 minutos. Ejemplos: 30m, 1h, 1.5h, 3h"

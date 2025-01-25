@@ -40,8 +40,8 @@ raidOutMessageSet: "Personlig raid-ud meddelelse tilføjet"
 raidOutOn: "Raid-ud advarsel aktiveret"
 raidOutOff: "Raid-ud advarsel deaktiveret"
 raidOutMessage: "{{channelFrom}} har startet et raid af {{channelTo}}! Mød op med os hos https://twitch.tv/{{channelToLogin}} og vise noget støtte og kærlighed {{emote1}} {{emote2}}"
-# raidSnoozeOn: "Raid snooze enabled - ads will be snoozed when receiving raids"
-# raidSnoozeOff: "Raid snooze disabled"
+raidSnoozeOn: "Raid pause aktiveret - reklamer vil blive sat på pause når der modtages raids"
+raidSnoozeOff: "Raid pause deaktiveret"
 
 # stream online
 seryBotJoined: "Sery_Bot er her {{emote}}"
@@ -68,13 +68,13 @@ noLanguageProvided: "Intet sprog til rådighed. Venligst angiv en gyldig sprogko
 invalidLanguage: "Ugyldig sprogkode. Venligst angiv gyldig sprogkode. Gyldige sprogkoder er: {{validLangCodes}}"
 
 # spamcheck
-# spamcheckOn: "Spam checks enabled"
-# spamcheckOff: "Spam checks disabled"
+spamcheckOn: "Spam kontrol aktiveret"
+spamcheckOff: "Spam kontrol deaktiveret"
 
 # breaktimers
-# breakTimerMessageCleared: "Break timer message cleared"
-# breakTimerMessageSet: "Break timer message added"
-# breakTimerOff: "Break timer disabled"
-# breakTimerSet: "Break timer set to {{duration}} minutes"
-# breakTimerMessage: "It's time for a break! Take some time to stretch, hydrate, and rest your eyes {{emote}}"
-# breakTimerExamples: "Please provide a break timer in minutes or hours. The minimum is 5 minutes. Examples: 30m, 1h, 1.5h, 3h"
+breakTimerMessageCleared: "Pause timer meddelelse fjernet"
+breakTimerMessageSet: "Pause timer meddelelse tilføjet"
+breakTimerOff: "Pause timer deaktiveret"
+breakTimerSet: "Pause timer sat til {{duration}} minutter"
+breakTimerMessage: "Det er tid til en pause! Tag dig tid til at strække ud, drik noget vand og hvil dine øjne {{emote}}"
+breakTimerExamples: "Venligst angiv en pause timer i minutter eller timer. Minimum er 5 minutter. Eksempler: 30m, 1h, 1.5h, 3h"

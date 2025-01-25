@@ -40,8 +40,8 @@ raidOutMessageSet: "Mensagem personalizada de raid-out adicionada"
 raidOutOn: "Alerta de Raid-out ativado"
 raidOutOff: "Alerta de Raid-out desativado"
 raidOutMessage: "{{channelFrom}} enviou a raid para {{channelTo}}! Junte-se a nós em https://twitch.tv/{{channelToLogin}} e mostre algum amor! {{emote1}} {{emote2}}"
-# raidSnoozeOn: "Raid snooze enabled - ads will be snoozed when receiving raids"
-# raidSnoozeOff: "Raid snooze disabled"
+raidSnoozeOn: "Pausa de raid ativada - os anúncios serão pausados quando receber raids"
+raidSnoozeOff: "Pausa de raid desativada"
 
 # stream online
 seryBotJoined: "Sery_Bot está aqui {{emote}}"
@@ -68,13 +68,13 @@ noLanguageProvided: "Sem idioma fornecido. Por favor, forneca um código de idio
 invalidLanguage: "Código de idioma inválido. Por favor, forneça um código de idioma válido. Código de idioma validos são: {{validLangCodes}}"
 
 # spamcheck
-# spamcheckOn: "Spam checks enabled"
-# spamcheckOff: "Spam checks disabled"
+spamcheckOn: "Verificação de spam ativada"
+spamcheckOff: "Verificação de spam desativada"
 
 # breaktimers
-# breakTimerMessageCleared: "Break timer message cleared"
-# breakTimerMessageSet: "Break timer message added"
-# breakTimerOff: "Break timer disabled"
-# breakTimerSet: "Break timer set to {{duration}} minutes"
-# breakTimerMessage: "It's time for a break! Take some time to stretch, hydrate, and rest your eyes {{emote}}"
-# breakTimerExamples: "Please provide a break timer in minutes or hours. The minimum is 5 minutes. Examples: 30m, 1h, 1.5h, 3h"
+breakTimerMessageCleared: "Mensagem do temporizador de pausa limpa"
+breakTimerMessageSet: "Mensagem do temporizador de pausa adicionada"
+breakTimerOff: "Temporizador de pausa desativado"
+breakTimerSet: "Temporizador de pausa definido para {{duration}} minutos"
+breakTimerMessage: "Hora de uma pausa! Tire um tempo pra se alongar, hidratar e descansar os olhos {{emote}}"
+breakTimerExamples: "Por favor, forneça um temporizador de pausa em minutos ou horas. O mínimo é de 5 minutos. Exemplos: 30m, 1h, 1.5h, 3h"
