@@ -58,6 +58,15 @@ raffleSystemOff: "Lodtrækning system Deaktiveret"
 followBanOn: "Følger bot beskyttelse aktiveret"
 followBanOff: "Følger bot beskyttelse deaktiveret"
 
+# Chat settings
+chatSettingsCheckOn: "Chat indstillings kontrol aktiveret - jeg vil notificere dig hvis nogen restriktive chat tilstande er aktiveret når du går live."
+chatSettingsCheckOff: "Chat indstillings kontrol deaktiveret"
+chatSettingsWarning: "Hej @{{channel}}! Du har {{modes}} som tilstand aktiveret, bare så du ved det! seryboLove"
+chatModeFollowersOnly: "kun følgere"
+chatModeEmoteOnly: "kun emotes"
+chatModeSubscribersOnly: "kun abonnenter"
+chatModeSlowMode: "langsom"
+
 # Reauth whisper
 # No links because Twitch considers them spam
 reauthWhisper: "Hej, dette er en automatiseret meddelelse for at informere dig om at Sery_Bot ikke længere beskytter din kanal. Dette vil ofte ske hvis du ændre dit kodeord. Hvis du ønsker at genaktivere boten, besøge Sery_Bots Twitch side og brug kommandoen !join for at få boten tilbage. Hvis du har spørgsmål er du velkommen til at sende en besked til @SeryCodes på Bluesky eller Twitter, Tak."

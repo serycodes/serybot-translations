@@ -58,6 +58,15 @@ raffleSystemOff: "ラッフルシステムが無効になりました"
 followBanOn: "フォローボット保護が有効になりました"
 followBanOff: "フォローボット保護が無効になりました"
 
+# Chat settings
+chatSettingsCheckOn: "チャット設定チェックが有効になりました - 配信開始時に制限的なチャットモードが有効になっている場合に通知します。"
+chatSettingsCheckOff: "チャット設定チェックが無効になりました"
+chatSettingsWarning: "@{{channel}}! 次のモードが有効になっています：{{modes}}！seryboLove"
+chatModeFollowersOnly: "フォロワー限定"
+chatModeEmoteOnly: "エモート限定"
+chatModeSubscribersOnly: "サブスクライバー限定"
+chatModeSlowMode: "スロー"
+
 # Reauth whisper
 # No links because Twitch considers them spam
 reauthWhisper: "こんにちは、これは自動メッセージです。Sery_Botがチャンネルを保護しなくなったことをお知らせします。これは通常、パスワードを変更したときに発生します。ボットを再追加したい場合は、Sery_BotのTwitchページにアクセスしてボットを再度!joinしてください。質問がある場合は、BlueskyまたはTwitterで@SeryCodesにメッセージを送ってください。ありがとうございます！"

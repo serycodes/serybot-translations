@@ -58,6 +58,15 @@ raffleSystemOff: "抽奖系统已停用"
 followBanOn: "关注机器人保护已启用"
 followBanOff: "关注机器人保护已停用"
 
+# Chat settings
+chatSettingsCheckOn: "聊天室设置检查已启用 - 当您开播时，如果有任何限制性的聊天室模式被启用，我会通知您。"
+chatSettingsCheckOff: "聊天室设置检查已停用"
+chatSettingsWarning: "@{{channel}}，让您知道，您已启用了以下模式：{{modes}}！seryboLove"
+chatModeFollowersOnly: "仅限关注者"
+chatModeEmoteOnly: "仅限表情符号"
+chatModeSubscribersOnly: "仅限订阅者"
+chatModeSlowMode: "慢速"
+
 # Reauth whisper
 # No links because Twitch considers them spam
 reauthWhisper: "你好，这是自动消息，通知您 Sery_Bot 不再保护您的频道。这通常发生在您更改密码时。如果您想重新添加机器人，请访问 Sery_Bot 的 Twitch 页面并使用 !join 将机器人重新加入。如果您有任何问题，请随时在 Bluesky 或推特（Twitter）上联系 @SeryCodes。谢谢！"

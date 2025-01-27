@@ -58,6 +58,15 @@ raffleSystemOff: "Ang raffle system ay naka-off"
 followBanOn: "Proteksyon sa follow bot ay naka-on"
 followBanOff: "Proteksyon sa follow bot ay naka-off"
 
+# Chat settings
+chatSettingsCheckOn: "Naka-on na ang chat settings check - sasabihan kita kung may mga restrictive na chat mode na naka-on kapag nag-live ka."
+chatSettingsCheckOff: "Naka-off na ang chat settings check"
+chatSettingsWarning: "Hi @{{channel}}! FYI, naka-on ang iyong mga mode: {{modes}}! seryboLove"
+chatModeFollowersOnly: "followers lang"
+chatModeEmoteOnly: "emotes lang"
+chatModeSubscribersOnly: "subscribers lang"
+chatModeSlowMode: "mabagal"
+
 # Reauth whisper
 # No links because Twitch considers them spam
 reauthWhisper: "Hello, ito ay automated message para ipaalam sa'yo na hindi na pinoprotektahan ni Sery_Bot ang iyong channel. Ito ay karaniwang nangyayari kapag binago mo ang iyong password. Kung gusto mong i-add muli ang bot, bisitahin ang Twitch page ni Sery_Bot at gamitin ang !join para ibalik ang bot. Kung may mga tanong ka, huwag mag-atubiling mag-message kay @SeryCodes sa Bluesky o Twitter. Salamat!"

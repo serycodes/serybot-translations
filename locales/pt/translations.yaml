@@ -58,6 +58,15 @@ raffleSystemOff: "Sistema de sorteio desativado"
 followBanOn: "Proteção contra follow bots ativada"
 followBanOff: "Proteção contra follow bots desativada"
 
+# Chat settings
+chatSettingsCheckOn: "Verificação de configurações de chat ativada - eu notificarei você se algum modo restritivo de chat estiver ativado quando você ficar ao vivo."
+chatSettingsCheckOff: "Verificação de configurações de chat desativada"
+chatSettingsWarning: "Olá @{{channel}}! Você tem o modo {{modes}} ativado, só para você saber! seryboLove"
+chatModeFollowersOnly: "apenas seguidores"
+chatModeEmoteOnly: "apenas emotes"
+chatModeSubscribersOnly: "apenas subscritores"
+chatModeSlowMode: "lento"
+
 # Reauth whisper
 # No links because Twitch considers them spam
 reauthWhisper: "Olá, esta é uma mensagem automática para informá-lo que Sery_Bot não está mais a proteger seu canal. Isso geralmente acontece quando você muda sua senha. Se você quiser readicionar o bot, visite a página do Sery_Bot na Twitch e use !join para adicionar o bot novamente. Se você tiver alguma dúvida, sinta-se à vontade para enviar uma mensagem para @SeryCodes no Bluesky ou Twitter. Obrigado!"
