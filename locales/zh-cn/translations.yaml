@@ -42,6 +42,7 @@ raidOutOff: "突袭退出提醒已停用"
 raidOutMessage: "{{channelFrom}} 已将突袭转移到 {{channelTo}}！快来 https://twitch.tv/{{channelToLogin}} 加入我们并送上支持吧！{{emote1}} {{emote2}}"
 raidSnoozeOn: "突袭暂停已启用 - 接收突袭时将暂停广告"
 raidSnoozeOff: "突袭暂停已停用"
+raidOutGoodbye: "祝您度过愉快的一天！{{emote}} 别忘了补充水分，好好照顾自己！{{emote2}}"
 
 # stream online
 seryBotJoined: "Sery_Bot 已到达 {{emote}}"

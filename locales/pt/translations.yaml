@@ -42,6 +42,7 @@ raidOutOff: "Alerta de raid-out desativado"
 raidOutMessage: "{{channelFrom}} enviou o raid para {{channelTo}}! Junte-se a nós em https://twitch.tv/{{channelToLogin}} e mostre algum amor! {{emote1}} {{emote2}}"
 raidSnoozeOn: "Pausa de raid ativada - os anúncios serão pausados ao receber raids"
 raidSnoozeOff: "Pausa de raid desativada"
+raidOutGoodbye: "Tenha um ótimo resto de dia! {{emote}} Não se esqueça de se hidratar e cuidar de si! {{emote2}}"
 
 # stream online
 seryBotJoined: "Sery_Bot está aqui {{emote}}"

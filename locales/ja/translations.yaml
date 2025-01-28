@@ -42,6 +42,7 @@ raidOutOff: "レイドアウトアラートが無効になりました"
 raidOutMessage: "{{channelFrom}}がレイドを{{channelTo}}に送りました！https://twitch.tv/{{channelToLogin}}で参加して、愛を示してください！{{emote1}} {{emote2}}"
 raidSnoozeOn: "レイドスヌーズが有効になりました - レイド受信時に広告が一時停止されます"
 raidSnoozeOff: "レイドスヌーズが無効になりました"
+raidOutGoodbye: "良い一日をお過ごしください！{{emote}} 水分補給と体調管理をお忘れなく！{{emote2}}"
 
 # stream online
 seryBotJoined: "Sery_Botが参加しました {{emote}}"
