@@ -24,8 +24,9 @@ info: "Benvenuti nel canale di Sery_Bot! Questo bot è stato creato per riconosc
 
 # !adtimer and related
 needsAdAuth: "Non ho il permesso di controllare le pubblicità nel tuo canale. Per favore visita {{authLink}} per risolvere il problema, poi digita nuovamente il comando."
-adTimerEnabled: "Timers delle pubblicità abilitati"
-adTimerDisabled: "Timers delle pubblicità disabilitati"
+adTimerEnabled: "Timer delle pubblicità attivati"
+adTimerDisabled: "Timer delle pubblicità disattivati"
+adTimerEndDisabled: "Timer delle pubblicità di fine disattivati"
 adBreakBegin: "Una pubblicità di {{duration}} è appena cominciata! Ti ringrazio per essere ancora qui con me durante l'attesa! {{emote}} Le pubblicità mi aiutano tanto a supportare il canale. C'è la possibilità di iscriversi al canale per rimuovere le pubblicità e supportarmi direttamente!"
 adBreakEnd: "La pubblicità è finita! {{emote}}"
 noAdMsgProvided: "Per favore scrivi un messaggio per il timer della pubblicità. Per esempio: {{command}} Considera la possibilità di iscriverti al canale per rimuovere le pubblicità e supportarmi direttamente!"

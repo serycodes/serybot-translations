@@ -26,6 +26,7 @@ info: "Welcome to Sery_Bot's channel! This bot is a hate raid protection bot tha
 needsAdAuth: "I do not have permission to check for ads in your channel. Please visit {{authLink}} to fix this, then run this command again."
 adTimerEnabled: "Ad timers enabled"
 adTimerDisabled: "Ad timers disabled"
+adTimerEndDisabled: "Ad timer end messages disabled"
 adBreakBegin: "A {{duration}} ad break is starting! Thank you for sticking with us through this break! {{emote}} Ads help support my content. Consider subscribing to remove ads and support the stream!"
 adBreakEnd: "The ad break is finishing now! {{emote}}"
 noAdMsgProvided: "Please provide a message for the ad timer. Example: {{command}} Consider subscribing to remove ads and support this stream!"

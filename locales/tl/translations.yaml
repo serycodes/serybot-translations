@@ -26,6 +26,7 @@ info: "Welcome sa channel ni Sery_Bot! Ang bot na ito ay proteksyon para sa hate
 needsAdAuth: "Wala akong pahintulot para i-check ang ads sa iyong channel. Bumisita sa {{authLink}} para ayusin ang problema at gamitin muli ang command na ito."
 adTimerEnabled: "Ang mga timer para sa ads ay naka-on na"
 adTimerDisabled: "Ang mga timer para sa ads ay naka-off na"
+adTimerEndDisabled: "Ang mga timer para sa pagtatapos ng ads ay naka-off na"
 adBreakBegin: "Ang {{duration}} ad break ay nagsimula na! Salamat sa pananatili habang naka-break! {{emote}} Ang mga ads ay nakakatulong para suportahan ang aking content. I-consider na mag-subscribe para tanggalin ang ads at suportahan ang stream!"
 adBreakEnd: "Matatapos na ang ad break! {{emote}}"
 noAdMsgProvided: "Magbigay ng mensahe para sa ad timer. Halimbawa: {{command}} I-consider na mag-subscribe para tanggalin ang ads at suportahan ang stream!"

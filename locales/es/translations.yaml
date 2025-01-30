@@ -26,6 +26,7 @@ info: "¡Bienvenido al canal de Sery_Bot! Este bot te protege de las raids de od
 needsAdAuth: "No tengo permisos para comprobar los anuncios en tu canal. Por favor, pincha en el enlace {{authLink}} para solucionarlo, y ejecuta este comando de nuevo."
 adTimerEnabled: "Temporizadores de anuncios activos."
 adTimerDisabled: "Temporizadores de anuncios inactivos."
+adTimerEndDisabled: "Temporizadores de fin de anuncios desactivados."
 adBreakBegin: "¡Una pausa publicitaria que dura {{duration}} ha comenzado! ¡Gracias por quedarte en el canal durante este descanso! {{emote}} Los anuncios me ayudan a seguir proveyendo mi contenido. ¡Considera suscribirte para eliminar los anuncios y apoyar al directo!"
 adBreakEnd: "¡La pausa publicitaria está llegando a su fin! {{emote}}"
 noAdMsgProvided: "Por favor, proporciona un mensaje para el temporizador de anuncios. Ejemplo: {{command}} ¡Considera suscribirte para eliminar los anuncios y apoyar este directo!"

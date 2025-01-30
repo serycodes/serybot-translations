@@ -26,6 +26,7 @@ info: "Bem-vindo ao canal de Sery_Bot! Este bot é um bot de proteção contra r
 needsAdAuth: "Eu não tenho permissão para checar anúncios no seu canal. Por favor, visite {{authLink}} para corrigir isso e então use esse comando novamente."
 adTimerEnabled: "Temporizador de anúncios ativado"
 adTimerDisabled: "Temporizador de anúncios desativado"
+adTimerEndDisabled: "Temporizador de fim de anúncios desativado"
 adBreakBegin: "Um intervalo comercial de {{duration}} está começando! Obrigado por ficar conosco durante este intervalo! {{emote}} Anúncios ajudam a apoiar meu conteúdo. Considere se inscrever para remover anúncios e apoiar a stream!"
 adBreakEnd: "O intervalo comercial está terminando agora! {{emote}}"
 noAdMsgProvided: "Por favor, forneça uma mensagem para o temporizador de anúncios. Exemplo: {{command}} Considere se inscrever para remover anúncios e apoiar a stream!"

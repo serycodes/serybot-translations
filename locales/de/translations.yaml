@@ -26,6 +26,7 @@ info: "Willkommen auf dem Kanal von Sery_Bot! Dieser Bot ist ein Schutzbot gegen
 needsAdAuth: "Ich habe keine Berechtigung, Werbung in deinem Kanal zu prüfen. Bitte besuche {{authLink}}, um dies zu beheben, und führe dann diesen Befehl erneut aus."
 adTimerEnabled: "Werbe-Timer aktiviert"
 adTimerDisabled: "Werbe-Timer deaktiviert"
+adTimerEndDisabled: "Werbe-Timer-Endnachrichten deaktiviert"
 adBreakBegin: "Eine Werbepause von {{duration}} beginnt! Danke, dass du während dieser Pause bei uns bleibst! {{emote}} Werbung unterstützt meine Inhalte. Überlege, zu abonnieren, um Werbung zu entfernen und den Stream zu unterstützen!"
 adBreakEnd: "Die Werbepause endet jetzt! {{emote}}"
 noAdMsgProvided: "Bitte gebe eine Nachricht für den Werbe-Timer ein. Beispiel: {{command}} Mit einem Abo kannst du diesen Stream werbefrei genießen und mich gleichzeitig unterstützen!"

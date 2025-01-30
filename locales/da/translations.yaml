@@ -26,6 +26,7 @@ info: "Velkom til Sery_Bots kanal! Denne bot er en had angreb beskyttelse bot so
 needsAdAuth: "Jeg har ikke tilladelse til at tjekke for reklamer i din kanal. Venligst besøg {{authLink}} for at rette dette, gentag så denne kommando."
 adTimerEnabled: "Reklame timere aktiveret"
 adTimerDisabled: "Reklame timere deaktiveret"
+adTimerEndDisabled: "Reklame timer slut deaktiveret"
 adBreakBegin: "En {{duration}} reklamepause starter! Tak fordi du bliver hængende {{emote}} Reklamer hjælper med at støtte min kanal. Overvej at abonnere for at undgå reklamer og støtte kanalen!"
 adBreakEnd: "Reklamepausen er slut! {{emote}}"
 noAdMsgProvided: "Venligst angiv en meddelelse for reklame timeren. Eksempel: {{command}} Overvej at abonnere for at undgå reklamer og støtte kanalen!"

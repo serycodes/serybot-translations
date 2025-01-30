@@ -26,6 +26,7 @@ info: "歡迎來到 Sery_Bot 的頻道！此機器人是一個仇恨攻擊保護
 needsAdAuth: "我沒有權限檢查您頻道中的廣告。請瀏覽 {{authLink}} 進行修復，然後再次執行此命令。"
 adTimerEnabled: "廣告計時器已啟用"
 adTimerDisabled: "廣告計時器已停用"
+adTimerEndDisabled: "廣告計時器結束訊息已停用"
 adBreakBegin: "正在開始 {{duration}} 的廣告中斷！感謝您在這段時間內繼續支持我們！ {{emote}} 廣告幫助支持我的內容。考慮訂閱以去除廣告並支持直播！"
 adBreakEnd: "廣告中斷即將結束！ {{emote}}"
 noAdMsgProvided: "請提供廣告計時器的訊息。例如：{{command}} 考慮訂閱以去除廣告並支持這個直播！"
